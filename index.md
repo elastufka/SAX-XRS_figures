@@ -13,7 +13,7 @@ The soft X-ray instrument normalized response functions (above) and the MESSENGE
 
 ## Figure 2
 
-Locations of flares as given by HEK/AIA. Flares are color-coded according to the ratio of the theoretical GOES flux calculated from the MESSENGER temperature and emission measure to the actual GOES flux (see Figure 4 - MESSENGER/GOES < 1 is cyan and >1 is magenta) and the size of the symbol associated with them is directly proportional to the value of the ratio. Events marked with a plus sign indicate those where the measured GOES flux is less than class C2, corresponding to the red triangles in Figure 4.
+Locations of flares as given by HEK/AIA. Flares are color-coded according to the ratio of the theoretical GOES flux calculated from the MESSENGER temperature and emission measure to the actual GOES flux (see Figure 4 - MESSENGER/GOES < 1 is cyan and >1 is magenta) and the size of the symbol associated with them is directly proportional to the value of the ratio. Events marked with a plus sign indicate those where the measured GOES flux is less than class C2, corresponding to the red triangles in [Figure 4][#figure-4].
 
 {% include all_flare_locations.html %}
 
@@ -24,7 +24,7 @@ Relationship of MESSENGER peak flux to GOES peak flux, for events visible to bot
 
 {% include direct.html %}
 
-## Figure 4
+## [#Figure 4]
 
 Events which were excluded from the samples above in Figure 3. Although jointly visible to MESSENGER and GOES, events marked in red were deemed unsuitable for other reasons, described in the text.
 
