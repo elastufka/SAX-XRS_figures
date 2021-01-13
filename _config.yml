@@ -10,5 +10,5 @@ footer_links:
     icon: fab fa-github-square
   - title: OrcID
     url: https://orcid.org/0000-0003-1894-2074
-    icon: fab fa-orcid
+    icon: <i class="fab fa-orcid"></i>
 
