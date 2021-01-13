@@ -1,3 +1,6 @@
 remote_theme: mmistakes/so-simple-theme
 mathjax:
   enable: true
+
+github_url: https://github.com/elastufka
+linkedin_url: https://www.linkedin.com/in/erica-lastufka-1686b2b5/
