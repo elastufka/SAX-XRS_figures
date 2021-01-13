@@ -26,7 +26,7 @@ Relationship of MESSENGER peak flux to GOES peak flux, for events visible to bot
 
 ## Figure 4
 
-Events which were excluded from the samples above in Figure 3. Although jointly visible to MESSENGER and GOES, events marked in red were deemed unsuitable for other reasons, described in the text.
+Events which were excluded from the samples above in [Figure 3](#figure-3) Although jointly visible to MESSENGER and GOES, events marked in red were deemed unsuitable for other reasons, described in the text.
 
 {% include outliers.html %}
 
