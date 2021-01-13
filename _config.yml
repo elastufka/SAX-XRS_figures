@@ -8,7 +8,5 @@ footer_links:
   - title: GitHub
     url: https://github.com/elastufka
     icon: fab fa-github-square
-  #- title: OrcID
-  #  url: https://orcid.org/0000-0003-1894-2074
-  #  icon: fab fa-orcid
+
 
