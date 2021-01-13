@@ -43,4 +43,4 @@ Temperatures and emission measures calculated for each instrument. MESSENGER val
 Comparison of SXR fluxes with EUV flux. Lines of best fit are shown in blue. In the top plot, the dashed line indicates the fit found in \citet{nittaSoftXrayFluxes2013} and begins at the value above which the fit is best (GOES M5.5 or 4x10$^6$ photons/s in EUV 195 \AA). In the middle plot, it illustrates the derived MESSENGER proxy (Equation \ref{eq:Mproxy}), after conversion via the EUV-GOES proxy (Equation \ref{eq:nitta}). In the bottom plot, the dashed line indicates the 1:1 ratio.
 
 
-{% include footer.html %}
+
