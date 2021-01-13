@@ -13,7 +13,7 @@ The soft X-ray instrument normalized response functions (above) and the MESSENGE
 
 ## Figure 2
 
-Locations of flares as given by HEK/AIA. Flares are color-coded according to the ratio of the theoretical GOES flux calculated from the MESSENGER temperature and emission measure to the actual GOES flux (see Figure 4 - MESSENGER/GOES < 1 is cyan and >1 is magenta) and the size of the symbol associated with them is directly proportional to the value of the ratio. Events marked with a plus sign indicate those where the measured GOES flux is less than class C2, corresponding to the red triangles in [Figure 4][#Figure-4].
+Locations of flares as given by HEK/AIA. Flares are color-coded according to the ratio of the theoretical GOES flux calculated from the MESSENGER temperature and emission measure to the actual GOES flux (see Figure 4 - MESSENGER/GOES < 1 is cyan and >1 is magenta) and the size of the symbol associated with them is directly proportional to the value of the ratio. Events marked with a plus sign indicate those where the measured GOES flux is less than class C2, corresponding to the red triangles in [Figure-4][#figure-4].
 
 {% include all_flare_locations.html %}
 
@@ -40,7 +40,7 @@ Temperatures and emission measures calculated for each instrument. MESSENGER val
 
 ## Figure 7
 
-Comparison of SXR fluxes with EUV flux. Lines of best fit are shown in blue. In the top plot, the dashed line indicates the fit found in [Nitta et al. 2013](http://link.springer.com/article/10.1007/s11207-013-0307-7) and begins at the value above which the fit is best (GOES M5.5 or 4x10<sup>6</sup> photons/s in EUV 195 Å). In the middle plot, it illustrates the derived MESSENGER proxy (Equation \ref{eq:Mproxy}), after conversion via the EUV-GOES proxy (Equation \ref{eq:nitta}). In the bottom plot, the dashed line indicates the 1:1 ratio.
+Comparison of SXR fluxes with EUV flux. Lines of best fit are shown in blue. In the top plot, the dashed line indicates the fit found in [Nitta et al. 2013](http://link.springer.com/article/10.1007/s11207-013-0307-7) and begins at the value above which the fit is best (GOES M5.5 or 4x10<sup>6</sup> photons/s in EUV 195 Å). In the middle plot, it illustrates the derived MESSENGER proxy (Equation 1), after conversion via the EUV-GOES proxy (Equation 5). In the bottom plot, the dashed line indicates the 1:1 ratio.
 
 
 
