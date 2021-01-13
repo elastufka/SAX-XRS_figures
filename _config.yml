@@ -1,6 +1,11 @@
 remote_theme: mmistakes/so-simple-theme
 mathjax:
   enable: true
+footer_links:
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/erica-lastufka-1686b2b5/
+    icon: fab fa-linkedin
+  - title: GitHub
+    url: https://github.com/elastufka
+    icon: fab fa-github-square
 
-github_url: https://github.com/elastufka
-linkedin_url: https://www.linkedin.com/in/erica-lastufka-1686b2b5/
