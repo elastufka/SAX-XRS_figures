@@ -4,6 +4,12 @@ _E. Lastufka (FHNW/ETHZ) and S. Krucker (FHNW/UC Berkeley)_
 
 Published in [ApJ](https://doi.org/10.3847/1538-4357/abc5c2), or read the pre-publicatation article on [arxiv.org](https://arxiv.org/abs/2012.10221) 
 
+## Abstract
+
+Mercury mission MESSENGER's Solar Assembly for X-rays (SAX) observed almost 700 solar flares between May 28, 2007 and August 19, 2013, as cataloged by [Dennis 2015](http://adsabs.harvard.edu/abs/2015ApJ...803...67D). The SAX instrument, part of the X-ray Spectrometer (XRS), operated at 1 - 10 keV, partially overlapping the energy range of the GOES X-ray spectrometers. SAX provides viewing angles different from the Earth-Sun line and can therefore be used as a GOES proxy for partially or fully occulted flares as seen from Earth. For flares with GOES classes above C2 seen on-disk for both instruments, we found an empirical relationship between the soft X-ray (SXR) fluxes measured by both SAX and GOES. Due to the different energy response of the two SXR instruments, individual events can deviate on average by about a factor of two from the empirical relationship, implying that predictions of the GOES class of occulted flares from SAX data are therefore accurate to within the same factor.
+
+The distinctive GOES energy response in combination with the multithermal nature of flares makes it difficult for any instrument, even other soft X-ray spectrometers, to provide a GOES proxy more accurate than a factor of two.
+
 ## Figure 1
 
 The soft X-ray instrument normalized response functions (above) and the MESSENGER data set of ~650 flares (below), represented by the spectra at the flare peak. The flare of 1 June, 2007, which is shown in additional detail in Figure 1 of [Dennis 2015](http://adsabs.harvard.edu/abs/2015ApJ...803...67D), is highlighted in red. The range from 2.5-7.5 keV is used in Section 2.2 to fit the MESSENGER spectra.
@@ -48,5 +54,4 @@ Comparison of SXR fluxes with EUV flux. Lines of best fit are shown in blue. In 
 
 {% include STEREO.html %}
 
-### did these changes get deployed?
 
