@@ -1,5 +1,6 @@
 remote_theme: mmistakes/so-simple-theme
 google_analytics: UA-187281218-1
+skin: "/assets/css/skins/dark.css"
 mathjax:
   enable: true
 footer_links:
