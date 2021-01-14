@@ -12,8 +12,8 @@ footer_links:
     icon: fab fa-github-square
 
 locale: en-US
-#title: "Test title"
-#description: "test description"
+title: ""
+description: ""
 #logo: "/images/institute_logos.png" # path of site logo, e.g. "/assets/images/logo.png"
 date_format: "%-d %B, %Y"
 #read_time: true
