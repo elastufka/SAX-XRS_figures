@@ -48,5 +48,5 @@ Comparison of SXR fluxes with EUV flux. Lines of best fit are shown in blue. In 
 
 {% include STEREO.html %}
 
-
+### did these changes get deployed?
 
