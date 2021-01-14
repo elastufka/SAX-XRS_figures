@@ -34,13 +34,19 @@ Events which were excluded from the samples above in [Figure 3](#figure-3) Altho
 
 Relationship of GOES-equivalent flux derived from the MESSENGER spectra to the measured GOES flux, for all jointly observed flares above a certain flux threshold (C2 for GOES long, B2 for GOES short). The solid line shows line of best fit, while the dashed line is the 1:1 ratio.
 
+{% include goes_teem.html %}
+
 ## Figure 6
 
 Temperatures and emission measures calculated for each instrument. MESSENGER values were obtained via OSPEX fit, while GOES quantities were calculated using the SSWIDL routine _goes_teem.pro_, based on empirical data.
 
+{% include TEEM.html %}
+
 ## Figure 7
 
 Comparison of SXR fluxes with EUV flux. Lines of best fit are shown in blue. In the top plot, the dashed line indicates the fit found in [Nitta et al. 2013](http://link.springer.com/article/10.1007/s11207-013-0307-7) and begins at the value above which the fit is best (GOES M5.5 or 4x10<sup>6</sup> photons/s in EUV 195 Å). In the middle plot, it illustrates the derived MESSENGER proxy (Equation 1), after conversion via the EUV-GOES proxy (Equation 5). In the bottom plot, the dashed line indicates the 1:1 ratio.
+
+{% include STEREO.html %}
 
 
 
