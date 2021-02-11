@@ -9,8 +9,7 @@
 #     - title: Twitter
 #       url: https://twitter.com/billyrick
 #       icon: fab fa-twitter-square
-
-elastufka:
+Erica Lastufka:
   name: Erica Lastufka
   email: erica.lastufka@fhnw.ch
   links:
@@ -20,10 +19,11 @@ elastufka:
     - title: GitHub
       url: https://github.com/elastufka
       icon: fab fa-github-square
-     
- skrucker:
+  
+ Sam Krucker:
   name: Säm Krucker
   email: sam.krucker@fhnw.ch
+  links:
 
 
 
