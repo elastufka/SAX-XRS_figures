@@ -13,11 +13,14 @@ tags:
 
 NuSTAR observation time: 2020-09-12 20:22:00 - 21:07:00
 
+
 | Instrument | Wavelength regime | Cadence | Resolution |
+| --- | --- | --- | --- |
 | NuSTAR | SXR | 20s | low |
 | XRT Be-Thin| SXR | 30s?| medium|
 | AIA | EUV | 18-ish s | 0.7"|
 | STEREO-A | EUV | 5 min | 1.something"|
+
 
 Location determined by aligning XRT to AIA
 
