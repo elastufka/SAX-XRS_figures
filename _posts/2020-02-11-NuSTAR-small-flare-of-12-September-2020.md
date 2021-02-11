@@ -15,6 +15,6 @@ Instruments: NuSTAR (SXR, imaging), XRT (SXR Be-Thin, imaging), STEREO (EUV), AI
 
 Location determined by aligning XRT to AIA
 
-##Figure 1: location
+## Figure 1: location
 
-##Figure 2: lightcurves
+## Figure 2: lightcurves
