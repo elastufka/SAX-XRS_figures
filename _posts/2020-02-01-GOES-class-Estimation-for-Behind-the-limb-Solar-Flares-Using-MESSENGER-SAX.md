@@ -1,9 +1,7 @@
 
 ---
 title: "GOES-class Estimation for Behind-the-limb Solar Flares Using MESSENGER SAX"
-sub_title: "E. Lastufka (FHNW/ETHZ) and S. Krucker (FHNW/UC Berkeley)"
-categories:
-  - Solar Physics
+
 tags:
   - figures
   - MESSENGER
