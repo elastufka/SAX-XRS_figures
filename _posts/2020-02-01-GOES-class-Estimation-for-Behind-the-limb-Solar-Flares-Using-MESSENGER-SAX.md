@@ -1,4 +1,3 @@
-
 ---
 title: "GOES-class Estimation for Behind-the-limb Solar Flares Using MESSENGER SAX"
 categories:
