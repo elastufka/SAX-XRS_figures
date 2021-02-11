@@ -1,0 +1,29 @@
+# Sample Authors
+# Remove file or replace with your own
+
+# Billy Rick:
+#   name: Billy Rick
+#   picture: /images/bio-photo-2.jpg
+#   twitter: "@billyrick"
+#   links:
+#     - title: Twitter
+#       url: https://twitter.com/billyrick
+#       icon: fab fa-twitter-square
+
+elastufka:
+  name: Erica Lastufka
+  email: erica.lastufka@fhnw.ch
+  links:
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/erica-lastufka-1686b2b5/
+      icon: fab fa-linkedin
+    - title: GitHub
+      url: https://github.com/elastufka
+      icon: fab fa-github-square
+     
+ skrucker:
+  name: Säm Krucker
+  email: sam.krucker@fhnw.ch
+
+
+
