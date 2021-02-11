@@ -44,6 +44,17 @@ feed:
 # Search
 #search_full_content: false
 
+# Front Matter Defaults
+defaults:
+  # Post defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comments: true
+      share: true
+
 # Taxonomy pages
 #category_archive_path: "/categories/#"
 #tag_archive_path: "/tags/#"
