@@ -8,7 +8,6 @@ tags:
   - GOES
   - AIA
   - published
-last_modified_at: 2020-02-01T10:16:49-05:00
 ---
 
 _E. Lastufka (FHNW/ETHZ) and S. Krucker (FHNW/UC Berkeley)_
