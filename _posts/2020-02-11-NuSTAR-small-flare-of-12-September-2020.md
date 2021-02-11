@@ -7,7 +7,7 @@ tags:
   - XRT
   - AIA
   - STEREO
-  last_modified_at: 2020-02-11
+  last_modified_at: 2020-02-11T10:16:49 -0500
 ---
 
 Time: 2020-09-12 20:22:00 - 21:07:00
