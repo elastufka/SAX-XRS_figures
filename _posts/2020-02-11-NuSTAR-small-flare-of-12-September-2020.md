@@ -1,5 +1,5 @@
 ---
-title: "NuSTAR small flare of 12 September2020"
+title: "NuSTAR small flare of 12 September 2020"
 categories:
   - posts
 tags:
@@ -7,6 +7,7 @@ tags:
   - XRT
   - AIA
   - STEREO
+  last_modified_at: 2020-02-11
 ---
 
 Time: 2020-09-12 20:22:00 - 21:07:00
