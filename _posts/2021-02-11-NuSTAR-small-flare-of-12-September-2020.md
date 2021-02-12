@@ -39,6 +39,9 @@ Location determined by aligning XRT to AIA
 
 ![STEREO 195 difference gif](../images/STEREO_orbit8_b2_diff_big.gif) 
 
+![test png](../images/misolfa_transm.png) 
+
+
 ## Figure 2: Lightcurves
 
 AIA at native cadence except for AIA 193 (3 minutes currently, will be updated later)
