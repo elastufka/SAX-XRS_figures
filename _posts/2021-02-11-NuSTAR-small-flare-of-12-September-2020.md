@@ -37,6 +37,8 @@ Location determined by aligning XRT to AIA
 <img src="/images/STEREO_orbit8_b2_sobel.gif" alt="STEREO 195 Sobel gif">
 </figure>
 
+![STEREO 195 difference gif](../images/STEREO_orbit8_b2_diff_big.gif) 
+
 ## Figure 2: Lightcurves
 
 AIA at native cadence except for AIA 193 (3 minutes currently, will be updated later)
