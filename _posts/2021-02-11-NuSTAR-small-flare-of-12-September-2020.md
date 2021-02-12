@@ -26,6 +26,18 @@ Location determined by aligning XRT to AIA
 
 ## Figure 1: Flare Location
 
+<figure class="half">
+<img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/AIA335_boxes.png" alt="AIA 335 image with rectangle indicating where fluxes were calculated">
+<img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/NuSTAR_A_boxes.png" alt="NuSTAR camera A low-energy image with rectangle indicating where fluxes were calculated">
+<figcaption>Rectangles describing regions where lightcurve fluxes were calculated. The 40" square box shown on the left was used for XRT, AIA, and STEREO-A (not shown). The 160" square box shown on the left was used for NuSTAR. Coordinates of box centers are given below.</figcaption>
+</figure>
+
+```python
+[<SkyCoord (Helioprojective: obstime=2020-09-12 20:27:01, rsun=695508000.0 m, observer=<HeliographicStonyhurst Coordinate (obstime=2020-09-12 20:27:01): (lon, lat, radius) in (deg, deg, m)
+( 0.,  7.22972093,   1.50532432e+11)>): (Tx, Ty) in arcsec
+(-883.70237088,  221.77460855)>]
+```
+
 ## Figure 2: Flare time evolution (AIA and STEREO)
 
 |  Source | Image | Base Difference | Sobel Filter | 
