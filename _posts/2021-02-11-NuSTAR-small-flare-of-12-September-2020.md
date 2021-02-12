@@ -42,7 +42,7 @@ Location determined by aligning XRT to AIA
 ![test png](../images/misolfa_transm.png) 
 
 <figure>
-<img src="/images/misolfa_transm.png" alt="STEREO 195 Sobel gif">
+<img src="../images/misolfa_transm.png" alt="another test">
 </figure>
 
 
