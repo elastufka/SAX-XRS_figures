@@ -31,17 +31,11 @@ Location determined by aligning XRT to AIA
 |  Source | Image | Base Difference | Sobel Filter | 
 | --- | --- | --- | --- |
 | AIA 94 | ![AIA 94 gif](images/AIA_094_orbit8_3min.gif) | ![AIA 94 difference gif](images/AIA_094_orbit8_3min.gif)  | ![AIA 94 Sobel gif](images/AIA_094_orbit8_3min.gif)  |
-| STEREO-A 195 | ![STEREO 195 gif](https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/STEREO_orbit8_b1_nofilter_b2.gif) | ![STEREO 195 difference gif](https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/STEREO_orbit8_b2_diff_big.gif)  | <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/STEREO_orbit8_b2_sobel.gif" alt="STEREO 195 Sobel gif"></figure> |
+| STEREO-A 195 | <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/STEREO_orbit8_b1_nofilter_b2.gif" alt="STEREO 195 gif" width="100"></figure> |<figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/STEREO_orbit8_b2_diff_big.gif" alt="STEREO 195 difference gif" width="100"></figure>  | <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/STEREO_orbit8_b2_sobel.gif" alt="STEREO 195 Sobel gif" width="100"></figure> |
 
-<figure>
-<img src="../images/STEREO_orbit8_b2_sobel.gif" alt="STEREO 195 Sobel gif">
-</figure>
-
+<--
 ![STEREO 195 difference gif](https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/STEREO_orbit8_b2_diff_big.gif) 
-
-<figure>
-<img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/misolfa_transm.png" alt="yet another test">
-</figure>
+-->
 
 ## Figure 2: Lightcurves
 
