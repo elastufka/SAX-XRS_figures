@@ -45,6 +45,9 @@ Location determined by aligning XRT to AIA
 <img src="../images/misolfa_transm.png" alt="another test">
 </figure>
 
+<figure>
+<img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/misolfa_transm.png" alt="yet another test">
+</figure>
 
 ## Figure 2: Lightcurves
 
