@@ -11,7 +11,7 @@ tags:
 
 ## Basic information
 
-NuSTAR observation time: 2020-09-12 20:22:00 - 21:07:00
+NuSTAR observation time (orbit 8): 2020-09-12 20:22:00 - 21:07:00
 
 
 | Instrument | Wavelength regime | Cadence | Resolution |
@@ -26,9 +26,13 @@ Location determined by aligning XRT to AIA
 
 ## Figure 1: Flare Location
 
-## Figure 2: Flare time evolution (AIA)
+## Figure 2: Flare time evolution (AIA and STEREO)
 
-I presume I can add a gif...
+|  Source | Image | Base Difference | Sobel Filter | 
+| --- | --- | --- | --- |
+| AIA 94 | ![AIA 94 gif](images/AIA_094_orbit8_3min.gif) | ![AIA 94 difference gif](images/AIA_094_orbit8_3min.gif)  | ![AIA 94 Sobel gif](images/AIA_094_orbit8_3min.gif)  |
+| STEREO-A 195 | ![STEREO 195 gif](images/STEREO_orbit8_b1_nofilter_b2.gif) | ![STEREO 195 difference gif](images/STEREO_orbit8_b2_diff_big.gif)  | ![STEREO 195 Sobel gif](images/STEREO_orbit8_b2_sobel.gif)  |
+
 
 ## Figure 2: Lightcurves
 
