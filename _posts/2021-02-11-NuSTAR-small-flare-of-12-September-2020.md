@@ -31,19 +31,13 @@ Location determined by aligning XRT to AIA
 |  Source | Image | Base Difference | Sobel Filter | 
 | --- | --- | --- | --- |
 | AIA 94 | ![AIA 94 gif](images/AIA_094_orbit8_3min.gif) | ![AIA 94 difference gif](images/AIA_094_orbit8_3min.gif)  | ![AIA 94 Sobel gif](images/AIA_094_orbit8_3min.gif)  |
-| STEREO-A 195 | ![STEREO 195 gif](/mages/STEREO_orbit8_b1_nofilter_b2.gif) | ![STEREO 195 difference gif](/images/STEREO_orbit8_b2_diff_big.gif)  | <figure><img src="../images/STEREO_orbit8_b2_sobel.gif" alt="STEREO 195 Sobel gif"></figure> |
+| STEREO-A 195 | ![STEREO 195 gif](https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/STEREO_orbit8_b1_nofilter_b2.gif) | ![STEREO 195 difference gif](https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/STEREO_orbit8_b2_diff_big.gif)  | <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/STEREO_orbit8_b2_sobel.gif" alt="STEREO 195 Sobel gif"></figure> |
 
 <figure>
 <img src="../images/STEREO_orbit8_b2_sobel.gif" alt="STEREO 195 Sobel gif">
 </figure>
 
-![STEREO 195 difference gif](../images/STEREO_orbit8_b2_diff_big.gif) 
-
-![test png](../images/misolfa_transm.png) 
-
-<figure>
-<img src="../images/misolfa_transm.png" alt="another test">
-</figure>
+![STEREO 195 difference gif](https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/STEREO_orbit8_b2_diff_big.gif) 
 
 <figure>
 <img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/misolfa_transm.png" alt="yet another test">
