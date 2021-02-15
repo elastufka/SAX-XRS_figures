@@ -1,6 +1,6 @@
 remote_theme: mmistakes/so-simple-theme
 google_analytics: UA-187281218-1
-skin: "/assets/css/skins/dark.css"
+skin: "/assets/css/skins/default.css"
 mathjax:
   enable: true
 footer_links:
@@ -27,7 +27,10 @@ date_format: "%-d %B, %Y"
 #    weights: "400,400i,700,700i"
 #disqus:
 #  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
-
+mathjax:
+    enable: true# MathJax equations, e.g. true, false (default)
+    combo:  "tex-svg" #(default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
+    tags:  "ams"# "none", "ams" (default), "all"
 # Liquid
 liquid:
   error_mode: strict
