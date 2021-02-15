@@ -64,8 +64,8 @@ STEREO at native cadence (5 minutes).
 NuSTAR images at 20s cadence (made by Sam), adjusted to counts. 
 
 {%include temp-plot.html %}  
-
-
+\
+\
 
 ## Masks
 
@@ -92,7 +92,7 @@ mask_minus.append(np.ma.masked_greater(m.data,-3.*t).mask)
 ## Lightcurves with masks
 
 {%include dim-bright-total.html %}  
-
-
+\
+\
 
 ## DEM
