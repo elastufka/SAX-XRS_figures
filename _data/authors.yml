@@ -21,4 +21,13 @@ Erica Lastufka:
       url: https://github.com/elastufka
       icon: fab fa-github-square
 
-
+Sam Krucker:
+name: Sam Krucker
+email: sam.krucker@fhnw.ch
+links:
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/erica-lastufka-1686b2b5/
+    icon: fab fa-linkedin
+  - title: GitHub
+    url: https://github.com/elastufka
+    icon: fab fa-github-square
