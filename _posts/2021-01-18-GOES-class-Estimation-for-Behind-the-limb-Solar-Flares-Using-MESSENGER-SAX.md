@@ -70,3 +70,10 @@ Comparison of SXR fluxes with EUV flux. Lines of best fit are shown in blue. In 
 {% include STEREO.html %}
 <br/><br/>
 
+## Extra Figure 
+
+Distribution of the MESSENGER proxy GOES class and MESSENGER counts of the remaining, non-jointly visible solar flares observed by MESSENGER.
+
+{% include nonvis_dist.html %}
+<br/><br/>
+
