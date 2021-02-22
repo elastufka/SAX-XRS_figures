@@ -93,3 +93,12 @@ mask_minus.append(np.ma.masked_greater(m.data,-3.*t).mask)
 {%include dim-bright-total.html %}\
 
 ## DEM
+
+[DEMreg](https://github.com/ianan/demreg) results using 35 temperature bins between logT= 5.7 and logT = 7.1, 3x3 pixel binning (masked pixels do not contribute to the mean)
+
+**Solutions**
+![DEMreg results](https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit8_DEMreg_results.png) 
+
+**DEM evolution**
+
+
