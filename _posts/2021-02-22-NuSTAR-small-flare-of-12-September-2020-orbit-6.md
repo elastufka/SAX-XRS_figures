@@ -43,7 +43,7 @@ Flare location determined by finding the position of the center of mass of the 9
 |  Source | Image | Base Difference | Sobel Filter | 
 | --- | --- | --- | --- |
 | AIA 193 | <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6/AIA193_nofilter.gif" alt="AIA 193 gif" width="150"></figure>| <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6/AIA193_diff.gif" alt="AIA 193 difference gif" width="150"></figure> |<figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6/AIA193_sobel.gif" alt="AIA 193 Sobel gif" width="150"></figure> |
-| STEREO-A 195 | <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6/STEREO_195_nofilter.gif" alt="STEREO 195 gif" width="150"></figure> |  | <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6/STEREO_195_sobel.gif" alt="STEREO 195 Sobel gif" width="150"></figure> |
+| STEREO-A 195 | <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6/STEREO195_nofilter.gif" alt="STEREO 195 gif" width="150"></figure> |  | <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6/STEREO195_sobel.gif" alt="STEREO 195 Sobel gif" width="150"></figure> |
 
 
 ## Lightcurves
