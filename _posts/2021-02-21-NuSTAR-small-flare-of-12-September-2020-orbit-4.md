@@ -1,5 +1,5 @@
 ---
-title: "NuSTAR small flare of 12 September 2020 - orbit 6"
+title: "NuSTAR small flare of 12 September 2020 - orbit 4"
 categories:
   - posts
 tags:
@@ -11,7 +11,7 @@ tags:
 
 ## Basic information
 
-NuSTAR observation time (orbit 6): 2020-09-12 17:13:00 - 17:40:00
+NuSTAR observation time (orbit 4): 2020-09-12 14:00:00 - 14:23:00
 
 
 | Instrument | Wavelength regime | Cadence | Resolution/px |
@@ -25,15 +25,15 @@ NuSTAR observation time (orbit 6): 2020-09-12 17:13:00 - 17:40:00
 ## Flare Location
 
 <figure>
-<img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6/orbit6_overview.png" alt="XRT, NuSTAR camera A low-evergy and AIA 335 image with rectangles indicating where fluxes were calculated">  
+<img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit4/orbit4_overview.png" alt="XRT, NuSTAR camera A low-evergy and AIA 335 image with rectangles indicating where fluxes were calculated">  
 </figure>
 
-Flare location determined by finding the position of the center of mass of the 90% contour of the XRT submap around the flare area. To align with AIA, this requires ~25" offset in x and ~20" in y from the location in XRT header (coordinates below given in XRT frame).
+Flare location determined by finding the position of the center of mass of the 90% contour of the XRT submap around the flare area. To align with AIA, this requires ~25" offset in x and ~25" in y from the location in XRT header (coordinates below given in XRT frame).
 
 ```python
-[<SkyCoord (Helioprojective: obstime=2020-09-12 17:15:54, rsun=695508000.0 m, observer=<HeliographicStonyhurst Coordinate (obstime=2020-09-12 17:15:54): (lon, lat, radius) in (deg, deg, m)
-( 0.,  7.23099555,   1.50537582e+11)>): (Tx, Ty) in arcsec
-(-605.34259198,  41.25279285)>]
+<SkyCoord (Helioprojective: obstime=2020-09-12 14:10:41, rsun=695508000.0 m, observer=<HeliographicStonyhurst Coordinate (obstime=2020-09-12 14:10:41): (lon, lat, radius) in (deg, deg, m)
+( 0.,  7.23219551,   1.50542567e+11)>): (Tx, Ty) in arcsec
+(-764.11429488,  1.2117822)>
 ```
 
 ## Flare time evolution (AIA and STEREO)
@@ -42,8 +42,10 @@ Flare location determined by finding the position of the center of mass of the 9
 
 |  Source | Image | Base Difference | Sobel Filter | 
 | --- | --- | --- | --- |
-| AIA 193 | <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6/AIA193_nofilter.gif" alt="AIA 193 gif" width="150"></figure>| <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6/AIA193_diff.gif" alt="AIA 193 difference gif" width="150"></figure> |<figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6/AIA193_sobel.gif" alt="AIA 193 Sobel gif" width="150"></figure> |
+| AIA 193 | <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit4/AIA193_nofilter.gif" alt="AIA 193 gif" width="150"></figure>| <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit4/AIA193_diff.gif" alt="AIA 193 difference gif" width="150"></figure> |<figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit4/AIA193_sobel.gif" alt="AIA 193 Sobel gif" width="150"></figure> |
+<!--
 | STEREO-A 195 | <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6/STEREO195_nofilter.gif" alt="STEREO 195 gif" width="150"></figure> |  | <figure><img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6/STEREO195_sobel.gif" alt="STEREO 195 Sobel gif" width="150"></figure> |
+-->
 
 
 ## Lightcurves
@@ -54,7 +56,7 @@ STEREO-A at native cadence (5 minutes), calculated using 40" box.
 
 NuSTAR images at 20s cadence (made by Sam), adjusted to counts, calculated using 160" square box. 
 
-{%include orbit6_lightcurves.html %}
+{%include orbit4_lightcurves.html %}
 
 <!--
 ## Masks
