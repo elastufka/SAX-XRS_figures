@@ -101,4 +101,6 @@ mask_minus.append(np.ma.masked_greater(m.data,-3.*t).mask)
 
 **DEM evolution**
 
+Difference in DEM evolution relative to start of observation. NuSTAR low-energy count time profile and AIA 193 are shown (not to scale) on the x-z axis, and the AIA response functions (not to scale) on the y-z axis.
 
+{%include DEM_subtract_surface.html %}\
