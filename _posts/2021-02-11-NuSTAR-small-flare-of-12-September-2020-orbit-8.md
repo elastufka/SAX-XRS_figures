@@ -1,5 +1,5 @@
 ---
-title: "NuSTAR small flare of 12 September 2020"
+title: "NuSTAR small flare of 12 September 2020 - orbit 8"
 categories:
   - posts
 tags:
