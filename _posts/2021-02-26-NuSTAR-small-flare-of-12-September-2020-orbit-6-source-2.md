@@ -82,7 +82,7 @@ flare_box=([-825,325],[-750,400])
 qs_box=([-900,400],[-750,500])
 ```
 
-![Masks for all AIA channels](https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6_AIA_masks_s2.png) 
+![Masks for all AIA channels](https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6/orbit6_AIA_masks_s2.png) 
 
 
 ## Lightcurves with masks

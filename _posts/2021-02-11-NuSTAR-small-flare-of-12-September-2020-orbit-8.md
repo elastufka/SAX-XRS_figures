@@ -63,7 +63,7 @@ STEREO at native cadence (5 minutes).
 
 NuSTAR images at 20s cadence (made by Sam), adjusted to counts. 
 
-{%include temp-plot.html %}\
+{%include temp-plot.html %}
 
 
 ## Masks
@@ -90,7 +90,7 @@ mask_minus.append(np.ma.masked_greater(m.data,-3.*t).mask)
 
 ## Lightcurves with masks
 
-{%include dim-bright-total.html %}\
+{%include dim-bright-total.html %}
 
 ## DEM
 
@@ -103,4 +103,4 @@ mask_minus.append(np.ma.masked_greater(m.data,-3.*t).mask)
 
 Difference in DEM evolution relative to start of observation. NuSTAR low-energy count time profile and AIA 193 are shown (not to scale) on the x-z axis, and the AIA response functions (not to scale) on the y-z axis.
 
-{%include DEM_subtract_surface.html %}\
+{%include DEM_subtract_surface.html %}

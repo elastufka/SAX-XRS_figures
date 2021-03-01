@@ -54,7 +54,7 @@ STEREO-A at native cadence (5 minutes), calculated using 40" box.
 
 NuSTAR images at 20s cadence (made by Sam), adjusted to counts, calculated using 160" square box. 
 
-{%include orbit6_lightcurves.html %}\
+{%include orbit6_lightcurves.html %}
 
 
 ## Masks
@@ -76,12 +76,12 @@ mask_plus.append(np.ma.masked_less(m.data,3.*t).mask) #1 means masked, 0 means u
 mask_minus.append(np.ma.masked_greater(m.data,-3.*t).mask) 
 ```
 
-![Masks for all AIA channels](https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/AIA_masks.png) 
+![Masks for all AIA channels](https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit6/orbit6_AIA_masks.png) 
 
 
 ## Lightcurves with masks
 
-{%include orbit6_dim_bright_total.html %}\
+{%include orbit6_dim_bright_total.html %}
 
 ## DEM
 
