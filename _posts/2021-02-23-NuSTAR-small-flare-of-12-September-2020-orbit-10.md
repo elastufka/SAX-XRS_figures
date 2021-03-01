@@ -11,7 +11,7 @@ tags:
 
 ## Basic information
 
-NuSTAR observation time (orbit 4): 2020-09-12 23:40:00 - 2020-09-13 00:25:00
+NuSTAR observation time (orbit 10): 2020-09-12 23:40:00 - 2020-09-13 00:25:00
 
 
 | Instrument | Wavelength regime | Cadence | Resolution/px |
