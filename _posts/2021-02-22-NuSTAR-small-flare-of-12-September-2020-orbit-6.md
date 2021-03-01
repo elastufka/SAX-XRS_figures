@@ -81,7 +81,7 @@ mask_minus.append(np.ma.masked_greater(m.data,-3.*t).mask)
 
 ## Lightcurves with masks
 
-{%include orbit6_dim-bright-total.html %}\
+{%include orbit6_dim_bright_total.html %}\
 
 ## DEM
 
