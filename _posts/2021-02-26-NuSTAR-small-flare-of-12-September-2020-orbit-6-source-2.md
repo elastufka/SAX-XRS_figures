@@ -7,8 +7,9 @@ tags:
   - XRT
   - AIA
   - STEREO
-  use_math: true
 ---
+
+use_math: true
 
 A second, much fainter source also close to the edge of the NuSTAR FOV examined with the initial intent of determining if the brighter source in the orbit left the FOV during the observation, thus accounting for the sudden drop in counts around 17:19. 
 
