@@ -9,8 +9,6 @@ tags:
   - STEREO
 ---
 
-use_math: true
-
 A second, much fainter source also close to the edge of the NuSTAR FOV examined with the initial intent of determining if the brighter source in the orbit left the FOV during the observation, thus accounting for the sudden drop in counts around 17:19. 
 
 As will be seen, this was inconclusive due to the general low number of counts in the area of source 2, but given the total counts did not drop to zero, it's likely that any shift in NuSTAR's pointing during the observation was not enough to exclude either source from its FOV. 
@@ -67,7 +65,7 @@ NuSTAR images at 20s cadence (made by Sam), adjusted to counts, calculated using
 
 ## Masks
 
-Find regions of brightening/dimming by comparing the change in the flare region vs the quiet Sun region. A pixel is included in 'brightening' mask if the value of that pixel in the _difference_ image (integrated flare X-ray peak minus integrated pre-flare) is >5x greater than standard deviation of the average flux difference in Quiet Sun ($$\sigma_{QSdiff}$$) in those same time ranges (details in code below). Likewise with 'dimming' mask, only the pixel value is less than -5x {% raw %}$$\sigma_{QSdiff}$${% endraw %}. The total mask is sum of both masks in each channel.
+Find regions of brightening/dimming by comparing the change in the flare region vs the quiet Sun region. A pixel is included in 'brightening' mask if the value of that pixel in the _difference_ image (integrated flare X-ray peak minus integrated pre-flare) is >5x greater than standard deviation of the average flux difference in Quiet Sun (𝜎_<sub>QSdiff</sub> in those same time ranges (details in code below). Likewise with 'dimming' mask, only the pixel value is less than -5x  𝜎_<sub>QSdiff</sub>. The total mask is sum of both masks in each channel.
 
 Rows in figure show, for each wavelength:
 - flare region integrated difference image
