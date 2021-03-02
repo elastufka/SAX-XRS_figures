@@ -7,6 +7,7 @@ tags:
   - XRT
   - AIA
   - STEREO
+  use_math: true
 ---
 
 A second, much fainter source also close to the edge of the NuSTAR FOV examined with the initial intent of determining if the brighter source in the orbit left the FOV during the observation, thus accounting for the sudden drop in counts around 17:19. 
@@ -60,7 +61,7 @@ STEREO-A at native cadence (5 minutes), calculated using 40" box. Because the so
 
 NuSTAR images at 20s cadence (made by Sam), adjusted to counts, calculated using 160" square box. 
 
-{%include orbit6_lightcurves_s2.html %}\
+{%include orbit6_lightcurves_s2.html %}
 
 
 ## Masks
@@ -87,7 +88,7 @@ qs_box=([-900,400],[-750,500])
 
 ## Lightcurves with masks
 
-{%include orbit6_s2_dim_bright_total.html %}\
+{%include orbit6_s2_dim_bright_total.html %}
 
 <!--
 ## DEM
