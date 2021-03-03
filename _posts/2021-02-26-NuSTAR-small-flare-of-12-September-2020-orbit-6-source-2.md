@@ -65,14 +65,15 @@ NuSTAR images at 20s cadence (made by Sam), adjusted to counts, calculated using
 
 ## Masks
 
-Find regions of brightening/dimming by comparing the change in the flare region vs the quiet Sun region. A pixel is included in 'brightening' mask if the value of that pixel in the _difference_ image (integrated flare X-ray peak minus integrated pre-flare) is >5x greater than standard deviation of the average flux difference in Quiet Sun (𝜎_<sub>QSdiff</sub> in those same time ranges (details in code below). Likewise with 'dimming' mask, only the pixel value is less than -5x  𝜎_<sub>QSdiff</sub>. The total mask is sum of both masks in each channel.
+Find regions of brightening/dimming by comparing the change in the flare region vs the quiet Sun region. A pixel is included in 'brightening' mask if the value of that pixel in the _difference_ image (integrated flare X-ray peak minus integrated pre-flare) is >5x greater than standard deviation of the average flux difference in Quiet Sun (𝜎_<sub>QSdiff</sub>) in those same time ranges (details in code below). Likewise with 'dimming' mask, only the pixel value is less than -5x  𝜎_<sub>QSdiff</sub>. The total mask is sum of both masks in each channel.
 
 Rows in figure show, for each wavelength:
 - flare region integrated difference image
 - quiet Sun integrated difference region image
+- total mask
 - brightening mask
 - dimming mask
-- total mask
+
 
 ```python
 #orbit6 s2
