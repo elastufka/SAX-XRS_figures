@@ -57,32 +57,18 @@ NuSTAR images at 20s cadence (made by Sam), adjusted to counts, calculated using
 
 {%include orbit10_lightcurves.html %}
 
-<!--
+
 ## Masks
 
-Find regions of brightening/dimming by comparing the change in the flare region vs the quiet Sun region. A pixel is included in 'brightening' mask if the value of that pixel in the _difference_ image (integrate flare X-ray peak minus integrated pre-flare) is >3x greater than standard deviation of the average flux difference in Quiet Sun ($$\sigma_{QSdiff}$$) in those same time ranges (details in code below). Likewise with 'dimming' mask, only the pixel value is less than -3x {% raw %}$$\sigma_{QSdiff}$${% endraw %}. The total mask is sum of both masks in each channel.
+Find regions of brightening/dimming by comparing the change in the flare region vs the quiet Sun region. A pixel is included in 'brightening' mask if the value of that pixel in the _difference_ image (integrate flare X-ray peak minus integrated pre-flare) is >5x greater than standard deviation of the average flux difference in Quiet Sun  (𝜎_<sub>QSdiff</sub>) in those same time ranges (details in code below). Likewise with 'dimming' mask, only the pixel value is less than -5x  𝜎_<sub>QSdiff</sub>. The total mask is sum of both masks in each channel.
 
-```python
-#pre-flare time range (according to XRT, NuSTAR) 20:22-20:32
-#select time ranges to integrate images
-pfs=dt.strptime('20200912_202200','%Y%m%d_%H%M%S')
-pfe=dt.strptime('20200912_203200','%Y%m%d_%H%M%S')
-#peak time range (according to XRT, NuSTAR) 20:39-20:49
-#integrate whole image. de-rotation doesn't shift more than ~1px, safe enough to do difference images like this
-kfs=dt.strptime('20200912_203900','%Y%m%d_%H%M%S')
-kfe=dt.strptime('20200912_204900','%Y%m%d_%H%M%S')
-
-mask_total=np.ma.masked_inside(m.data,-3*t,3*t)
-mask_plus.append(np.ma.masked_less(m.data,3.*t).mask) #1 means masked, 0 means un-masked, this is why it masked_less and masked_greater are used where they are
-mask_minus.append(np.ma.masked_greater(m.data,-3.*t).mask) 
-```
-
-![Masks for all AIA channels](https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/AIA_masks.png) 
+![Masks for all AIA channels](https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/orbit10/orbit10_masks.png) 
 
 
 ## Lightcurves with masks
 
-{%include dim-bright-total.html %}\
+{%include orbit10_dim_bright_total.html %}
 
+<!--
 ## DEM
 -->
