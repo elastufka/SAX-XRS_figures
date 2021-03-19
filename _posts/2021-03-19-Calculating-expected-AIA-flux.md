@@ -7,10 +7,9 @@ tags:
   - calculation
 ---
 
-To calculate expected flux (per AIA pixel) given a temperature and emission measure (_expected_AIA_flux() in [_flare_physics_utils.py_](https://github.com/elastufka/solar_all_purpose/blob/main/flare_physics_utils.py)):
+To calculate expected flux (per AIA pixel) given a temperature and emission measure (_expected_AIA_flux()_ in [_flare_physics_utils.py_](https://github.com/elastufka/solar_all_purpose/blob/main/flare_physics_utils.py)):
 
-<math>F = EM/R(T) </math>
-
+<math>F = EM/R(T) </math><br>
 
 where F is the flux in units DN s<sup>-1</sup> px<sup>-1</sup>, EM has units (cm<sup>-3</sup>) and R(T) is the response fuction of a given channel at a given temperature, in units DN cm<sup>5</sup> s<sup>-1</sup> px<sup>-1</sup>.
 
@@ -51,6 +50,10 @@ obs_fluxes
 
 {%include AIA_predicted_vs_obs_brightest.html %}
 
+Here, the loci curves given by the actual observed fluxes show EM about one order of magnitude greater than what is predicted based on the T and EM from the spectral fit.
+
+Now compare with a pixel not in the flare area:
+
 ```python
 minloc=argmin2D(testfluxes[4])
 outside_fluxes=[f[minloc] for f in testfluxes] #now the dimmest pixel
@@ -68,9 +71,7 @@ outside_fluxes
 
 ### References 
 
-matej's paper
+[M. Kuhar et al, 2017 ApJ 835 6](https://iopscience.iop.org/article/10.3847/1538-4357/835/1/6#apjaa5185s3) equation 3
 
-Boerner, P. F., Testa, P., Warren, H., Weber, M. A., & Schrijver,
-C. J. 2014, Sol. Phys., 289, 2377'''
+[Boerner, P. F., Testa, P., Warren, H., Weber, M. A., & Schrijver, C. J. 2014, Sol. Phys., 289, 2377](https://link.springer.com/article/10.1007/s11207-013-0452-z#Sec2)
 
-[ApJ](https://doi.org/10.3847/1538-4357/abc5c2)
