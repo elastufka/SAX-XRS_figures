@@ -7,9 +7,9 @@ tags:
   - calculation
 ---
 
-To calculate expected flux (per AIA pixel) given a temperature and emission measure (_expected_AIA_flux()_ in [_flare_physics_utils.py_](https://github.com/elastufka/solar_all_purpose/blob/main/flare_physics_utils.py)):
+To calculate expected flux (per AIA pixel) given a temperature and emission measure ( _expected_AIA_flux()_ in [_flare_physics_utils.py_](https://github.com/elastufka/solar_all_purpose/blob/main/flare_physics_utils.py)):
 
-<math>F = EM/R(T) </math><br>
+<math>F = EM/R(T) </math></br></br>
 
 where F is the flux in units DN s<sup>-1</sup> px<sup>-1</sup>, EM has units (cm<sup>-3</sup>) and R(T) is the response fuction of a given channel at a given temperature, in units DN cm<sup>5</sup> s<sup>-1</sup> px<sup>-1</sup>.
 
