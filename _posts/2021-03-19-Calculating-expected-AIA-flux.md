@@ -23,7 +23,7 @@ Given observed fluxes, the EM can also be calculated from the above equation (se
 
 ## Examples 
 
-[NuSTAR observation of 2020-09-12, orbit 8](https://elastufka.github.io/SAX-XRS_figures/posts/2021/02/11/NuSTAR-small-flare-of-12-September-2020-orbit-8.html), with temperature and emission measure calculated by spectral fit between 20:37 and 20:50 (courtesy S. Paterson).
+[NuSTAR observation of 2020-09-12, orbit 8](https://elastufka.github.io/SAX-XRS_figures/posts/2021/02/11/NuSTAR-small-flare-of-12-September-2020-orbit-8.html), with temperature and emission measure calculated by spectral fit between 20:37 and 20:50 (courtesy S. Paterson). Note this is for the entire flare as seen by NuSTAR, extent unknown. 
 
 ```python
 obs_params['EM_spec_cm-3']=1.03e43
@@ -32,7 +32,7 @@ obs_params['T_spec_MK']=3.244
 obs_params['T_err_MK']=[3.195,3.347]
 ```
 
-Compare expected AIA fluxes (dashed lines) with observed fluxes at peak of AIA event, at the brightest part of the flare as seen in AIA 211:
+Compare expected AIA fluxes (dashed lines) with observed fluxes _in one pixel_ at peak of AIA event, at the brightest part of the flare as seen in AIA 211:
 
 ```python
 obstime='2020-09-12 20:51:00'
@@ -50,7 +50,7 @@ obs_fluxes
 
 {%include AIA_predicted_vs_obs_brightest.html %}
 
-Here, the loci curves given by the actual observed fluxes show EM about one order of magnitude greater than what is predicted based on the T and EM from the spectral fit.
+Here, the loci curves given by the actual observed fluxes in only a single pixel show EM about one order of magnitude greater than what is predicted based on the T and EM from the spectral fit for the whole flare! 
 
 Now compare with a pixel not in the flare area:
 
@@ -68,6 +68,29 @@ outside_fluxes
 
 {%include AIA_predicted_vs_obs_dim.html %}
 
+Let's assume that even though this flare is small, it's still going to show up in more than one AIA pixel. Instead of the usual mask, take only the top 50% contour in the 211 difference image as the mask:
+
+```python
+percent=50
+mask50=make_contour_mask(211,contour=[percent],plot=False)
+np.sum(~mask50) #number of pixels being considered
+
+7
+```
+
+```python
+obs_fluxes #from difference image now
+
+[29.38421407745588,
+ 180.84673903206203,
+ 3380.5521036341333,
+ 5035.8296055020155,
+ 1857.4968614776121,
+ 32.470292787569235]
+```
+This is ~ 10x higher than fluxes from a single pixel.
+
+{%include AIA_predicted_vs_obs_top50.html %}
 
 ### References 
 
