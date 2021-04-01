@@ -8,9 +8,13 @@ tags:
   - calculation
 ---
 
+A quick check on appropriateness of spectral fits. Like with AIA, we can plot the NuSTAR loci curves, given here by the rate (counts s<sup>-1</sup>) divided by the appropriate temperature response (counts s<sup>-1</sup> cm<sup>3</sup>) at a given energy. Select a variety of energies here in order to see what is within a believable temperature range 
+
+If the curves at the energies we anticipate to be contributing (2.5-4.5 keV was where the spectral fitting was done) intersect near the point repersented by the spectral fit, this means the results agree well.
+ 
 ## Orbit 6 
 
-[NuSTAR observation of 2020-09-12, orbit 6](https://elastufka.github.io/SAX-XRS_figures/posts/2021/02/11/NuSTAR-small-flare-of-12-September-2020-orbit-6-source-2.html), with temperature and emission measure calculated by spectral fit between 17:17 and 17:19.
+[NuSTAR observation of 2020-09-12, orbit 6](https://elastufka.github.io/SAX-XRS_figures/posts/2021/02/26/NuSTAR-small-flare-of-12-September-2020-orbit-6-source-2.html), with temperature and emission measure calculated by spectral fit between 17:17 and 17:19.
 
 ```python
 _,o6rate,o6tresp=gen_nustar_tresp(nsid='80610206001',orbit='6',time='1717_1719')
@@ -37,7 +41,7 @@ obs_params['T_err_MK']=[3.195,3.347]
 
 ## Orbit 10
 
-[NuSTAR observation of 2020-09-13, orbit 10](https://elastufka.github.io/SAX-XRS_figures/posts/2021/02/11/NuSTAR-small-flare-of-12-September-2020-orbit-10.html), with temperature and emission measure calculated by spectral fit between 00:08 and 00:15.
+[NuSTAR observation of 2020-09-13, orbit 10](https://elastufka.github.io/SAX-XRS_figures/posts/2021/02/23/NuSTAR-small-flare-of-12-September-2020-orbit-10.html), with temperature and emission measure calculated by spectral fit between 00:08 and 00:15.
 
 ```python
 _,o10rate,o10tresp=gen_nustar_tresp(nsid='80610210001',orbit='10',time='0008_0015')
@@ -51,7 +55,7 @@ obs_params['T_err_MK']=[2.618,3.555]
 
 ### Details
 
-To calculate expected flux (per AIA pixel) given a temperature and emission measure see [previous post](). 
+To calculate expected flux (per AIA pixel) given a temperature and emission measure see [previous post](https://elastufka.github.io/SAX-XRS_figures/posts/2021/03/19/Calculating-expected-AIA-flux.html). 
 
 To calculate NuSTAR response functions, run the notebook [here](https://github.com/ianan/nustar_sac/blob/master/python/example_nstresp.ipynb) with the .arf, .rmf, and .pha files associated with a given spectral fitting of an observation.
 
