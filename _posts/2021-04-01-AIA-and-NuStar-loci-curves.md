@@ -20,9 +20,9 @@ The potential influence of counts at other energies on the spectral fit can be s
 
 ```python
 _,o6rate,o6tresp=gen_nustar_tresp(nsid='80610206001',orbit='6',time='1717_1719')
-obs_params['EM_spec_cm-3']=[1.07e44,1.07e44]
+obs_params['EM_spec_cm-3']=1.07e44
 obs_params['EM_err_cm-3']=[6.62e43,1.47e44]
-obs_params['T_spec_MK']=[3.264,3.264]
+obs_params['T_spec_MK']=3.264
 obs_params['T_err_MK']=[3.193,3.431]
 ```
 
@@ -48,9 +48,9 @@ obs_params['T_err_MK']=[3.195,3.347]
 ```python
 _,o10rate,o10tresp=gen_nustar_tresp(nsid='80610210001',orbit='10',time='0008_0015')
 
-obs_params['EM_spec_cm-3']=[8.46e42,8.46e42]
+obs_params['EM_spec_cm-3']=8.46e42
 obs_params['EM_err_cm-3']=[0,4.34e43]
-obs_params['T_spec_MK']=[3.206,3.206]
+obs_params['T_spec_MK']=3.206
 obs_params['T_err_MK']=[2.618,3.555]
 ```
 {%include orbit10_loci.html %}
