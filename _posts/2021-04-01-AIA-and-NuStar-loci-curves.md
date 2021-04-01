@@ -8,9 +8,11 @@ tags:
   - calculation
 ---
 
-A quick check on appropriateness of spectral fits. Like with AIA, we can plot the NuSTAR loci curves, given here by the rate (counts s<sup>-1</sup>) divided by the appropriate temperature response (counts s<sup>-1</sup> cm<sup>3</sup>) at a given energy. Select a variety of energies here in order to see what is within a believable temperature range 
+A quick check on appropriateness of spectral fits. Like with AIA, we can plot the NuSTAR loci curves, given here by the rate (counts s<sup>-1</sup>) divided by the appropriate temperature response (counts s<sup>-1</sup> cm<sup>3</sup>) at a given energy. Select a variety of energies here in order to see which is most influential in contributing to the spectrum.
 
-If the curves at the energies we anticipate to be contributing (2.5-4.5 keV was where the spectral fitting was done) intersect near the point repersented by the spectral fit, this means the results agree well.
+If a loci curve crosses or comes close to the point determined by the spectral fitting, it agrees well with that solution, which was determined mostly using counts in the 2.5-4.5 keV range. Therefore the loci curves in the same range should be close to the solution.
+
+The potential influence of counts at other energies on the spectral fit can be seen from their loci curves (e.g. 1.5-2 keV curve).
  
 ## Orbit 6 
 
