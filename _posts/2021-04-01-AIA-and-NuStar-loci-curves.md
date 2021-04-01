@@ -20,7 +20,7 @@ obs_params['T_spec_MK']=[3.264,3.264]
 obs_params['T_err_MK']=[3.193,3.431]
 ```
 
-{%include orbit6_locil.html %}
+{%include orbit6_loci.html %}
 
 ## Orbit 8
 
@@ -33,7 +33,7 @@ obs_params['T_spec_MK']=3.244
 obs_params['T_err_MK']=[3.195,3.347]
 ```
 
-{%include orbit8_locil.html %}
+{%include orbit8_loci.html %}
 
 ## Orbit 10
 
@@ -47,12 +47,12 @@ obs_params['EM_err_cm-3']=[0,4.34e43]
 obs_params['T_spec_MK']=[3.206,3.206]
 obs_params['T_err_MK']=[2.618,3.555]
 ```
-{%include orbit10_locil.html %}
+{%include orbit10_loci.html %}
 
 ### Details
 
 To calculate expected flux (per AIA pixel) given a temperature and emission measure see [previous post](). 
 
-To calculate NuSTAR response functions, run the notebook [here]() with the .arf, .rmf, and .pha files associated with a given spectral fitting of an observation.
+To calculate NuSTAR response functions, run the notebook [here](https://github.com/ianan/nustar_sac/blob/master/python/example_nstresp.ipynb) with the .arf, .rmf, and .pha files associated with a given spectral fitting of an observation.
 
 
