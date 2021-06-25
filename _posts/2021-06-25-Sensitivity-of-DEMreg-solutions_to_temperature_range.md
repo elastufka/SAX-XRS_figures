@@ -18,7 +18,7 @@ Key inputs to [joint_DEM()](https://gitlab.fhnw.ch/erica.lastufka/small-nustar-f
 ```python
 tr=["2020-09-12T20:39:00","2020-09-12T20:42:00"]
 tstart=5.0
-tend=np.linspace(6,7,11)
+tend=np.linspace(6,7.3,14)
 
 for t in tend:
     foo=joint_DEM(timerange=tr,tstart=tstart,tend=t,numtemps=50)
@@ -37,4 +37,8 @@ for t in tend:
 
 {%include DEMreg_temp_dnreg_v_dnin.html min-height="800px" %}
 
-From this, _tend_=6.9 was chosen...
+Depending on where the temperature axis is cut off, the shape of the DEM changes. Low-temperature cutoffs (< $log_{10}$ T = 6.5) result in fits that don't pay much attention to the X-ray data, as might be expected. Large outliers for both NuSTAR and XRT in the DN_reg vs DN_in plot confirm this. 
+
+However, if the temperature range goes too high (> $log_{10}$ T = 6.9) the shape of the DEM once again wants to trend supriously upwards, giving too much weight to the X-ray contriubutions and drastically changing the result of the DEM solution. 
+
+From this, _tend_=6.9 is the optimal upper limit to the temperature axis, which includes the high energies in the solution without weighting their importance too the extreme.
