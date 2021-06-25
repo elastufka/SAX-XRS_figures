@@ -33,8 +33,8 @@ for t in tend:
 
 ## Results
 
-{%include DEMreg_temp_dem.html min-width="800px"%}
+{%include DEMreg_temp_dem.html min-height="800px"%}
 
-{%include DEMreg_temp_dnreg_v_dnin.html min-width="800px" %}
+{%include DEMreg_temp_dnreg_v_dnin.html min-height="800px" %}
 
 From this, _tend_=6.9 was chosen...
