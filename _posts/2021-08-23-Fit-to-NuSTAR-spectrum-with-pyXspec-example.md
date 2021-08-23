@@ -138,4 +138,4 @@ To export the data, call the XSPEC plot commands. It won't automatically overwri
 
 ### Notebook & Code
 
-An [example notebook]() including plotted results and pyxspec [fitting class](https://github.com/elastufka/solar_all_purpose/blob/main/fit_with_xspec.py) are available.
+An [example notebook](https://github.com/elastufka/solar_all_purpose/blob/main/pyXspec%20test.ipynb) including plotted results and pyxspec [fitting class](https://github.com/elastufka/solar_all_purpose/blob/main/fit_with_xspec.py) are available.
