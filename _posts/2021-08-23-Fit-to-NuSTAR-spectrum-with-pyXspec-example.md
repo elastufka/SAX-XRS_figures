@@ -8,7 +8,7 @@ tags:
   - examples
 ---
 
-[PyXspec](https://heasarc.gsfc.nasa.gov/xanadu/xspec/python/html/index.html#) is the Python interface to NASA's [X-ray Spcetral Fitting Package](https://heasarc.gsfc.nasa.gov/xanadu/xspec/).
+[PyXspec](https://heasarc.gsfc.nasa.gov/xanadu/xspec/python/html/index.html#) is the Python interface to NASA's [X-ray Spectral Fitting Package](https://heasarc.gsfc.nasa.gov/xanadu/xspec/).
 
 This example demonstrates how to fit a thermal model with coronal abundances to NuSTAR count spectra from both telescopes. It is based on the xspec script found [here](https://github.com/ianan/nustar_sac/blob/master/xspec/apec1fit_fpm2_cstat.xcm).
 
@@ -23,7 +23,7 @@ If these (bash) commands are not executed at startup of the shell, execute befor
 
 PyXspec prints lots of information to the terminal. It might be easier to capture it in a log file instead of spending time sifting through the documentation to find out how to get the relevant attributes out of the objects.
 
-    logfile = xspec.Xset.openLog(f"xspec.log")
+    logfile = xspec.Xset.openLog("xspec.log")
     
 ## Input
 
@@ -110,17 +110,16 @@ It might be faster just to get the results from the log files, but here's an exa
     kev2mk=0.0861733
     emfact=3.5557e-42
     c2=m1.apec
-    self.T=c2.kT.values[0]/kev2mk
-    self.T_lbound=c2.kT.error[0]/kev2mk
-    self.T_ubound=c2.kT.error[1]/kev2mk
-    self.EM=c2.norm.values[0]/emfact
-    self.EM_lbound=c2.norm.error[0]/emfact
-    self.EM_ubound=c2.norm.error[1]/emfact
-    self.apec=c2
+    T=c2.kT.values[0]/kev2mk
+    T_lbound=c2.kT.error[0]/kev2mk
+    T_ubound=c2.kT.error[1]/kev2mk
+    EM=c2.norm.values[0]/emfact
+    EM_lbound=c2.norm.error[0]/emfact
+    EM_ubound=c2.norm.error[1]/emfact
     m2=xspec.AllModels(2).constant
-    self.FPMB_fac=m2.factor.values[0]
-    self.FPMB_lbound=m2.factor.error[0]
-    self.FPMB_ubound=m2.factor.error[0]
+    FPMB_fac=m2.factor.values[0]
+    FPMB_lbound=m2.factor.error[0]
+    FPMB_ubound=m2.factor.error[0]
     
 For plotting, it would be nice to include data counts outside of the fit range. The fit range can be expanded, again using floats if units given in keV.
 
