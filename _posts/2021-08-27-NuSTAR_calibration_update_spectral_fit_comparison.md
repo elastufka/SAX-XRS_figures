@@ -11,7 +11,7 @@ A patch to CALDB (currently in testing phase, not yet released) allows reliable 
 
 Fitting with the original energy range produced identical results. None of the count values in the low energy (<2.2 keV) range were actually changed by the new calibration in this particular case.
 
-| Energy range (keV) | T (MK)| EM (cm$^{-3}$) |
+| Energy range (keV) | T (MK)| EM (cm<sup>-3</sup>) |
 |---|---|---|
 | 2.5 - 4.5 | 2.91 (2.58 - 3.3) | 7.32e+43 (0 - 2.79e+44) |
 | 2.2 - 4.5 | 3.31 (3.07 - 3.55) | 2.14e+43 (1.3e+43 - 3.75e+43) |
