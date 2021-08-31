@@ -33,7 +33,7 @@ With the minimum error threshold set at 50% or higher, DEMreg manages to find a 
 
 The temperature response matrix for the different channels, DEM solution and input versus output are shown below.
 
-Compared to (previous results)[https://elastufka.github.io/presentations/Joint%20DEM%20(orbit%208).slides_updated.html#/4] when using the NuSTAR counts in a single energy bin starting at 2.5 keV, there is a greater high-temperature (>6.5 MK) component than before. The majority of the EM still comes from the peak around 6.3 MK.
+Compared to [previous results](https://elastufka.github.io/presentations/Joint%20DEM%20(orbit%208).slides_updated.html#/4) when using the NuSTAR counts in a single energy bin starting at 2.5 keV, there is a greater high-temperature (>6.5 MK) component than before. The majority of the EM still comes from the peak around 6.3 MK.
 
 ### Input data and errors
 
@@ -51,11 +51,11 @@ Compared to (previous results)[https://elastufka.github.io/presentations/Joint%2
 
 ### DEM fit results
 
-*chisq:* 0.841097
+**chisq:** 0.841
 
-*AIA DN_reg/DN_in ratio:* 0.8648246134090013
+**AIA DN_reg/DN_in ratio:** 0.865
 
-*Xray DN_reg/DN_in ratio:* 0.9384611673299451
+**Xray DN_reg/DN_in ratio:** 0.938
 
 {%include jointDEM_trmatrix.html %}
 
