@@ -1,5 +1,9 @@
 ---
 title: "NuSTAR small flare of 12 September 2020 - orbit 10"
+image: 
+  path: /images/transparent_banner.png
+  thumbnail: /images/orbit10/orbit10_overview.png
+  caption:
 categories:
   - posts
 tags:
