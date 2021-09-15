@@ -2,7 +2,8 @@
 title: "Displaying SunPy maps with PlotLy"
 image: 
   path: /images/transparent_banner.png
-  thumbnail: /images/sample_hero.jpg
+  thumbnail: /images/transparent_banner.png
+  caption:
 categories:
   - posts
 tags:
