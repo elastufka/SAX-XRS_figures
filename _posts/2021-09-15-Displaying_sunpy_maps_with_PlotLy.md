@@ -1,5 +1,8 @@
 ---
 title: "Displaying SunPy maps with PlotLy"
+image: 
+thumbnail: /images/sample_hero.png
+caption: "test a fake hero image"
 categories:
   - posts
 tags:
@@ -16,7 +19,7 @@ Notably:
 - Axis tick labels must be given in WCS
 - Hovertext coordinate values must be given in WCS
 
-This is implemented is [fake_maps_plotly.py](https://raw.githubusercontent.com/elastufka/solar_all_purpose/main/fake_maps_plotly.py). 
+This is implemented in [fake_maps_plotly.py](https://raw.githubusercontent.com/elastufka/solar_all_purpose/main/fake_maps_plotly.py). 
 
 An example AIA map rendered as a PlotLy heatmap is shown below. The code that generates it as as follows:
 
