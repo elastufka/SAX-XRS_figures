@@ -27,4 +27,4 @@ foo.plot_fake_heatmap(log=True,zmin=1.5,zmax=2.5)
 
 where the input is a Sunpy Map with off-limb pixels masked.
 
-{%include fake_aia_heatmap.html%}
+{%include fake_aia_heatmap.html %}
