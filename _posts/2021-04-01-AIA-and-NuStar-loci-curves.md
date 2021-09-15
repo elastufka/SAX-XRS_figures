@@ -1,5 +1,9 @@
 ---
 title: "AIA and NuSTAR loci curves"
+image: 
+  path: /images/transparent_banner.png
+  thumbnail: /images/loci_curves_hero.jpg
+  caption:
 categories:
   - posts
 tags:

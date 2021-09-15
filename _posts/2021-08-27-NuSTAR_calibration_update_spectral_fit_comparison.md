@@ -1,5 +1,9 @@
 ---
 title: "NuSTAR calibration update spectral fit comparison"
+image: 
+  path: /images/transparent_banner.png
+  thumbnail: /images/nustar_cal_hero.jpg
+  caption:
 categories:
   - posts
 tags:

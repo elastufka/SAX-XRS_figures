@@ -1,5 +1,9 @@
 ---
 title: "DEMreg solutions - adding one wavelength at a time"
+image: 
+  path: /images/transparent_banner.png
+  thumbnail: /images/one_at_a_time_hero.jpg
+  caption:
 categories:
   - posts
 tags:

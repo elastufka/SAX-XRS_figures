@@ -1,5 +1,9 @@
 ---
 title: "Sensitivity of DEMreg solutions to temperature range"
+image: 
+  path: /images/transparent_banner.png
+  thumbnail: /images/demreg_temp_hero.jpg
+  caption:
 categories:
   - posts
 tags:
