@@ -1,6 +1,7 @@
 ---
 title: "Displaying SunPy maps with PlotLy"
 image: 
+path: /images/sample_hero.png
 thumbnail: /images/sample_hero.jpg
 caption: "test a fake hero image"
 categories:
