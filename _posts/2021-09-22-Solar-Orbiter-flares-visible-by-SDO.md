@@ -16,4 +16,4 @@ Solar Orbiter's STIX has observed over 1000 flare candidates as of September 202
 
 The 24 jointly visible flares are plotted below, with additional information available through the hovertext. 
 
-{%include joint_visible.html %}
+{%include joint_observed.html %}
