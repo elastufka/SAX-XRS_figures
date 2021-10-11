@@ -23,7 +23,7 @@ The Earth-observer assumption is fairly accurate for coordinates on the solar di
     
 The figure shows that for AIA flares occuring near the solar limb, the reference frame of the observer (Earth or SDO) can make a difference of up to 15" in HPC x-coordinate or radially.
 
-{%include STIX_flares_coord_diff.html %}
+{%include STIX_flare_coord_diff.html %}
 
 This can be shown more uniformly by sampling coordinates at a set radial distance and various angles. I show this for the solar limb, where the difference in HPC-x coordinate can be up to 8.5" and the difference in HPC-y up to 1". Note that the limb here is about 20" less than the approximate solar limb at 956", due to the fact that some coordinate pairs don't return a result upon rotation at a greater radial distance than this. 
 
