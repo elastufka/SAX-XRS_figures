@@ -1,5 +1,9 @@
 ---
 title: "Fit to NuSTAR spectrum with pyXspec example"
+image: 
+  path: /images/transparent_banner.png
+  thumbnail: /images/fit_xspec.png
+  caption:
 categories:
   - posts
 tags:
