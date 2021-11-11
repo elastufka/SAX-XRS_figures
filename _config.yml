@@ -1,4 +1,4 @@
-remote_theme: mmistakes/so-simple-theme
+remote_theme: mmistakes/so-simple-theme@3.2.0
 google_analytics: UA-187281218-1
 skin: "/assets/css/skins/default.css"
 mathjax:
@@ -41,7 +41,7 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
+paginate: 12
 paginate_path: /page:num/
 
 # Search
