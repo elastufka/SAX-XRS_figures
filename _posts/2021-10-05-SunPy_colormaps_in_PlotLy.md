@@ -2,7 +2,7 @@
 title: "SunPy colormaps in PlotLy"
 image: 
   path: /images/transparent_banner.png
-  thumbnail: /images/cmaps_hero.png
+  thumbnail: /images/SunPy colormaps in PlotLy/hero.png
   caption:
 categories:
   - posts

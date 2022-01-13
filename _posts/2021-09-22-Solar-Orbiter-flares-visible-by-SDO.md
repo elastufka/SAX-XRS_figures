@@ -2,7 +2,7 @@
 title: "Solar Orbiter flares visible by SDO"
 image: 
   path: /images/transparent_banner.png
-  thumbnail: /images/flareloc_hero.png
+  thumbnail: /images/Solar Orbiter flares visible by SDO/hero.png
   caption:
 categories:
   - posts

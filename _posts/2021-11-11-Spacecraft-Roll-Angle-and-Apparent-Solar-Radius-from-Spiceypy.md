@@ -2,7 +2,7 @@
 title: "Spacecraft Roll Angle and Apparent Solar Radius from Spiceypy"
 image: 
   path: /images/transparent_banner.png
-  thumbnail: /images/roll_hero.png
+  thumbnail: /images/Spacecraft Roll Angle and Apparent Solar Radius from Spiceypy/hero.png
   caption:
 categories:
   - posts

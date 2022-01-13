@@ -2,7 +2,7 @@
 title: "Difference between SDO and Earth observers for coordinate rotation"
 image: 
   path: /images/transparent_banner.png
-  thumbnail: /images/rcoords_hero.png
+  thumbnail: /images/Difference between SDO and Earth observers for coordinate rotation/hero.png
   caption:
 categories:
   - posts
