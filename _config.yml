@@ -12,8 +12,8 @@ footer_links:
     icon: fab fa-github-square
 
 locale: en-US
-title: ""
-description: ""
+title: Erica's Work Blog
+description: Mostly concerning solar data science
 #logo: "/images/institute_logos.png" # path of site logo, e.g. "/assets/images/logo.png"
 date_format: "%-d %B, %Y"
 #read_time: true
@@ -74,10 +74,10 @@ defaults:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# plugins:
+plugins:
 #   - jekyll-seo-tag
 #   - jekyll-sitemap
-#   - jekyll-feed
+   - jekyll-feed
 #   - jekyll-paginate
 
 
