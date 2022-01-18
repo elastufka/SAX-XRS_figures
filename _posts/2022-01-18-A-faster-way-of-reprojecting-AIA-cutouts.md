@@ -37,7 +37,7 @@ mcutout=sunpy.map.Map('aia.lev1_euv_12s.2021-11-02T074511Z.171.image._prepped.fi
 mcutout.peek()
 ```
 
-<img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts/cutout.png" width=600 height=400>
+<img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts/cutout.png?raw=true" width=600 height=400>
 
 To get the Solar Orbiter WCS, it is necessary to first load the proper SPICE kernels.
 
@@ -109,7 +109,7 @@ submap_header['crpix2']=scrpix[1]
 rotated_map = mcutout.reproject_to(submap_header)
 ```
 
-<img src="https://github.com/elastufka/SAX-XRS_figures/raw/gh-pages/images/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts/hero.png" width=600 height=400>
+<img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts/hero.png?raw=true" width=600 height=400>
 
 This results in a speed-up of 8-9x for this 1000" x 1000" cutout.
 
