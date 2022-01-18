@@ -23,9 +23,11 @@ This example uses images from November 2021, when Solar Orbiter was close to the
 
 import pandas as pd
 import sunpy.map
+from astropy.coordinates import SkyCoord
+from astropy import units as u
 from stix_utils import load_SOLO_SPICE
 from visible_from_earth import get_observer
-from flare_physic_utils import cartesian_diff
+from flare_physics_utils import cartesian_diff
 
 peak_utc_corrected=pd.to_datetime('2021-11-02 07:45:11')
 load_SOLO_SPICE(peak_utc_corrected)
@@ -35,7 +37,7 @@ mcutout=sunpy.map.Map('aia.lev1_euv_12s.2021-11-02T074511Z.171.image._prepped.fi
 mcutout.peek()
 ```
 
-<img src="/images/A faster way of reprojecting AIA cutouts/cutout.png" width=600 height=400>
+<img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts/cutout.png" width=600 height=400>
 
 To get the Solar Orbiter WCS, it is necessary to first load the proper SPICE kernels.
 
@@ -65,8 +67,8 @@ Here, _refcoord_ is the coordinate (0",0") in the Solar Orbiter frame, and _stix
 Next, find the extent of the new data array after reprojection (without doing the reprojection of course)!
 
 ```python
-blr=mcutout.bottom_left_coord.transform_to(testcoord.frame)
-trr=mcutout.top_right_coord.transform_to(testcoord.frame)
+blr=mcutout.bottom_left_coord.transform_to(refcoord.frame)
+trr=mcutout.top_right_coord.transform_to(refcoord.frame)
 width, height=cartesian_diff(blr,trr) #arcsec
 
 ```
@@ -83,7 +85,7 @@ _height_ and _width_ are swapped from their usual indices to account for Sunpy m
 Make a new FITS header/WCS object for input to _reproject_:
 
 ```python
-submap_header=make_fitswcs_header(out_shape,testcoord,
+submap_header=sunpy.map.make_fitswcs_header(out_shape,refcoord,
 scale=scale,
 instrument="STIX",observatory="Solar Orbiter") 
 ```
@@ -99,16 +101,15 @@ def new_crpix(mcutout,stix_ref_coord,scale):
 scrpix=new_crpix(mcutout,stix_ref_coord,scale)
 ```
 
-Update the CRPIX keywords in the header dictionary, and then use either a Header or WCS object to do the reprojection:
+Update the CRPIX keywords in the header dictionary, and then do the reprojection:
 
 ```python
 submap_header['crpix1']=scrpix[0]
 submap_header['crpix2']=scrpix[1]
-output, _ = reproject_interp(mcutout, Header(submap_header))
-rotated_map = Map((output, submap_header))
+rotated_map = mcutout.reproject_to(submap_header)
 ```
 
-<img src="/images/A faster way of reprojecting AIA cutouts/hero.png" width=600 height=400>
+<img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts/hero.png" width=600 height=400>
 
 This results in a speed-up of 8-9x for this 1000" x 1000" cutout.
 
@@ -119,3 +120,4 @@ rotated_map=smart_reproject(mcutout,sobs)
 4.07 s ± 96.4 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
 ```
 
+[This post as a Jupyter notebook]("https://github.com/elastufka/SAX-XRS_figures/blob/mster/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts.ipynb")
