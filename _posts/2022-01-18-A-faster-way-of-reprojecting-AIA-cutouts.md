@@ -112,21 +112,21 @@ rotated_map = mcutout.reproject_to(submap_header)
 
 <img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts/hero.png?raw=true" width=600 height=400>
 
-This results in a speed-up of 8-9x for this 1000" x 1000" cutout.
+This results in a speed-up of 12x for this 1000" x 1000" cutout.
 
 ```python
 %%timeit
 rotated_map=smart_reproject(mcutout,sobs)
 
-4.07 s ± 96.4 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+2.74 s ± 116 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
 ```
 
 ### More Examples
 
+<img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts/ex1.png?raw=true" width=600 height=375>
+
 <img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts/ex2.png?raw=true" width=600 height=375>
 
 <img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts/ex3.png?raw=true" width=600 height=375>
-
-<img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts/ex4.png?raw=true" width=600 height=375>
 
 [This post as a Jupyter notebook](https://github.com/elastufka/SAX-XRS_figures/blob/master/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts.ipynb)
