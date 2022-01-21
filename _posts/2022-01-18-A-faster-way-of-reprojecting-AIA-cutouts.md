@@ -129,4 +129,4 @@ rotated_map=smart_reproject(mcutout,sobs)
 
 <img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts/ex3.png?raw=true" width=600 height=375>
 
-[This post as a Jupyter notebook](https://github.com/elastufka/SAX-XRS_figures/blob/master/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts.ipynb)
+[Try it yourself on CoLab](https://colab.research.google.com/drive/1i3A0zbH85YapoxJP5eVi5xTZQXHF-lqV?usp=sharing)
