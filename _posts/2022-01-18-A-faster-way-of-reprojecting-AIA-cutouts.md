@@ -31,7 +31,7 @@ from flare_physics_utils import cartesian_diff
 
 peak_utc_corrected=pd.to_datetime('2021-11-02 07:45:11')
 load_SOLO_SPICE(peak_utc_corrected)
-sobs,swcs=get_observer(peak_utc_corrected,obs='SOLO',sc=True)
+sobs,swcs=get_observer(peak_utc_corrected,obs='SOLO',sc=Trueout_shape=(1,1))
 
 mcutout=sunpy.map.Map('aia.lev1_euv_12s.2021-11-02T074511Z.171.image._prepped.fits')
 mcutout.peek()
@@ -39,7 +39,7 @@ mcutout.peek()
 
 <img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts/cutout.png?raw=true" width=600 height=400>
 
-To get the Solar Orbiter WCS, it is necessary to first load the proper SPICE kernels.
+To get the Solar Orbiter WCS, it is necessary to first load the proper SPICE kernels. Note: setting out_shape=(1,1) will help later on when determining the extent of the reprojected array shape.
 
 One can then reproject the AIA map to the Solar Orbiter viewpoint using the built-in _reproject_to():
 
@@ -59,8 +59,13 @@ A reference coordinate is returned by _get_observer()_ if the argument _sc=True_
 Next, find the extent of the new data array after reprojection (without doing the reprojection of course)!
 
 ```python
-blr=mcutout.bottom_left_coord.transform_to(refcoord.frame)
-trr=mcutout.top_right_coord.transform_to(refcoord.frame)
+edges_pix = np.concatenate(sunpy.map.map_edges(mcutout))
+edges_coord = mcutout.pixel_to_world(edges_pix[:, 0], edges_pix[:, 1])
+new_edges_coord = edges_coord.transform_to(sobs)
+new_edges_xpix, new_edges_ypix = swcs.world_to_pixel(new_edges_coord)
+
+left, right = np.min(new_edges_xpix), np.max(new_edges_xpix)
+bottom, top = np.min(new_edges_ypix), np.max(new_edges_ypix)
 ```
 
 If the rotation of either coordinate is not possible, NaN will be returned as either Tx or Ty. In that case, the extent of the new array can be found by transforming all the coordinates (it doesn't take as long as it sounds) and finding the on-disk boundaries of those coordinates. Note: It may be possible to extend the boundaries to off-disk with no negative consequences to _reproject_ but this hasn't been tested yet.
@@ -84,29 +89,19 @@ width, height=cartesian_diff(blr,trr,index=1) #arcsec
 out_shape=(int(width.value),int(height.value))
 ```
 
-Sunpy maps index at 1, so if doing the difference by hand (trr.Tx-blr.Tx , etc) remember that height and width will need to be swapped from their usual indices in out_shape.
-
 Make a new FITS header/WCS object for input to reproject:
 
 ```python
-submap_header=sunpy.map.make_fitswcs_header(out_shape,sobs,
-instrument="STIX",observatory="Solar Orbiter") 
+submap_header=sunpy.map.make_fitswcs_header((1,1),sobs) 
 ```
 
-This will NOT account for the translation of the cutout (CRPIX), so that will need to be added by hand. Additionally, the distance between the observer and the Sun will still be at the default 1AU, so this needs to be updated as well.
-
-Calculate the offset between the full-disk (0",0") pixel (_swcs.wcs.crpix_) and the bottom-left corner of the cutout in pixels (_swcs.world_to_pixel(blr)_):
+The output shape (1,1) will be overwritten, as will the translation of the cutout (CRPIX).
 
 ```python
-scrpix=swcs.wcs.crpix-swcs.world_to_pixel(blr)
-```
-
-Update the CRPIX and dsun_obs keywords in the header dictionary, and then do the reprojection:
-
-```python
-submap_header['crpix1']=scrpix[0]
-submap_header['crpix2']=scrpix[1]
-submap_header['dsun_obs']=swcs.wcs.aux.dsun_obs
+submap_header['crpix1'] -= left
+submap_header['crpix2'] -= bottom
+submap_header['naxis1'] = int(np.ceil(right - left))
+submap_header['naxis2'] = int(np.ceil(top - bottom))
 rotated_map = mcutout.reproject_to(submap_header)
 ```
 
@@ -116,7 +111,7 @@ This results in a speed-up of 12x for this 1000" x 1000" cutout.
 
 ```python
 %%timeit
-rotated_map=smart_reproject(mcutout,sobs)
+rotated_map=smart_reproject(mcutout)
 
 2.74 s ± 116 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
 ```
@@ -130,3 +125,6 @@ rotated_map=smart_reproject(mcutout,sobs)
 <img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/A%20faster%20way%20of%20reprojecting%20AIA%20cutouts/ex3.png?raw=true" width=600 height=375>
 
 [Try it yourself on CoLab](https://colab.research.google.com/drive/1i3A0zbH85YapoxJP5eVi5xTZQXHF-lqV?usp=sharing)
+
+
+Thanks to A. Shih for robust method of determining reprojected array shape.
