@@ -22,7 +22,7 @@ Input files are named identically to those accepted by OSPEX: a FITS file contai
 
 The spectrogram and response function are shown below.
 
-{%include stix_specgram.html %}
+{%include stix_sgram.html %}
 
 {%include trmatrix.html %}
 
