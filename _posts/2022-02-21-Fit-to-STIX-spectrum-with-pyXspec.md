@@ -40,7 +40,7 @@ The spectrum of the single time bin is shown below.
 
 XSPEC does not natively support solar coronal abundances, only photoshperic. Like in the [NuSTAR example](https://elastufka.github.io/SAX-XRS_figures/posts/2021/08/23/Fit-to-NuSTAR-spectrum-with-pyXspec-example.html), specify the abundance file manually.
 
-    xspec.Xset.abund="file %s" % abundf
+    xspec.Xset.abund=f"file {abundance_file}"
     
 ## Model Set-up
 
