@@ -26,6 +26,7 @@ With this simple and clear object shape, even the network trained on non-scienti
 <br>
 Multiple object segmentation example with two sunspots in a sunspot group.
 
+
 ##  Pre-trained model applied to AIA data
 
 <img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/DEXTR%20Image%20Segmentation%20test%20with%20HMI%20data/input2.png?raw=true"><br>
