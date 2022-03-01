@@ -40,6 +40,8 @@ This could be a good candidate for transfer learning, with the goal of solar ima
 
 The most suitable dataset that comes to mind is coronal holes; they are large, irregularly shaped but continuous, and their exact bounding polygons are available from HEK results. For multi-class segmentation (flares, sigmoids, jets, etc), much more pre-processing and data labelling would need to be done.
 
+An interesting application could be for EUV flare ribbon finding. Perhaps this method could perform better than basic thresholding?
+
 Challenges:
 - It seems like the object must be continuous. Therefore, sunspots in a group have to be treated individually
 - Extreme pixels must be located on the object or boundaries of the object. Loosely defining a bounding box (such is the ones that are returned for sunspots from HEK queries) won't produce the desired result. However, there seem to be similar image segmentation techniques based on bounding boxes.
