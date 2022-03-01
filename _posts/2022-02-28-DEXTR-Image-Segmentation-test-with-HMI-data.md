@@ -22,7 +22,7 @@ Deep Extreme Cut [DEXTR](https://github.com/scaelles/DEXTR-PyTorch) uses extreme
 
 With this simple and clear object shape, even the network trained on non-scientific, photographic images performs well.
 
-<image src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/DEXTR%20Image%20Segmentation%20test%20with%20HMI%20data/input3.png?raw=true">
+<img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/DEXTR%20Image%20Segmentation%20test%20with%20HMI%20data/input3.png?raw=true">
 
 Multiple object segmentation example with two sunspots in a sunspot group.
 
