@@ -19,17 +19,17 @@ Deep Extreme Cut [DEXTR](https://github.com/scaelles/DEXTR-PyTorch) uses extreme
 ##  Pre-trained model applied to HMI data
 
 <img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/DEXTR%20Image%20Segmentation%20test%20with%20HMI%20data/hero.png?raw=true">
-<br>
+
 With this simple and clear object shape, even the network trained on non-scientific, photographic images performs well.
 
 <image src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/DEXTR%20Image%20Segmentation%20test%20with%20HMI%20data/input3.png?raw=true">
-<br>
+
 Multiple object segmentation example with two sunspots in a sunspot group.
 
 
 ##  Pre-trained model applied to AIA data
 
-<img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/DEXTR%20Image%20Segmentation%20test%20with%20HMI%20data/input2.png?raw=true"><br>
+<img src="https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/DEXTR%20Image%20Segmentation%20test%20with%20HMI%20data/input2.png?raw=true">
 
 AIA 304 image - defining the extreme points of what looks like a darker band of plasma overlying a brighter area performs decently, although details of finer structure are lost.
 
