@@ -21,7 +21,7 @@ The current implementation of the model has not been optimized to take advantage
 
 Full example code can be found [here](https://github.com/elastufka/sunxspex/blob/master/examples/pyxspec_example.py). A single STIX spectrum is fit with a thermal bremsstrahlung model (XSPEC's _apec_) plus a thick-target model, in multiple stages. The reduced output is reproduced below.
 
-{%include xspec_output.txt %}
+{%include xspec_output.md %}
 
 ##  Results
 
