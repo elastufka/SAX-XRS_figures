@@ -18,7 +18,7 @@ To obtain a STIX image map, visit the [STIX Data Center](https://datacenter.stix
 
 In this example, a simple back projection image shows a source near the limb to the bottom-right of the image.
 
-![STIX back projection full-disk image](/images/Reprojecting STIX images/stix_fulldisk_8-26.png)
+![STIX back projection full-disk image](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Reprojecting%20STIX%20images/stix_fulldisk_8-26.png?raw=true)
 
 From here on, the [SunPy reprojection tutorial](https://docs.sunpy.org/en/stable/generated/gallery/map_transformations/reprojection_different_observers.html#sphx-glr-generated-gallery-map-transformations-reprojection-different-observers-py) can be followed with the following exceptions:
 
@@ -31,10 +31,10 @@ out_header=sunpy.map.make_fitswcs_header((1,1),aia_map.reference_coordinate,wave
   * not necessary to change the solar radius
   * reference coordinate can be constructed from any _observer_ whose position details can be obtained from SPICE kernels
 
-This header can then be [modified](https://elastufka.github.io/SAX-XRS_figures/posts/2022/01/18/A-faster-way-of-reprojecting-AIA-cutouts.html) to account for the correct shape and location of the reprojected submap if a submap is being used, following , and then used as input to _reproject_to()_.
+This header can then be [modified](https://elastufka.github.io/SAX-XRS_figures/posts/2022/01/18/A-faster-way-of-reprojecting-AIA-cutouts.html) to account for the correct shape and location of the reprojected submap if a submap is being used, and then used as input to _reproject_to()_.
 
 The reprojected back projection image of a STIX flare on 26 August 2021 is shown below, then overlaid on the AIA 171Å image of the same area at 23:18:09. STIX contours are shown at 60%, 70%, 80%, 90% and 95%.
 
-![reprojected STIX back projection image submap](/images/Reprojecting STIX images/stix_sm_rotated_8-26.png)
+![reprojected STIX back projection image submap](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Reprojecting%20STIX%20images/stix_sm_rotated_8-26.png?raw=true)
 
-![composite map of STIX contours on top of AIA 171 image](/images/Reprojecting STIX images/hero.png)
+![composite map of STIX contours on top of AIA 171 image](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Reprojecting%20STIX%20images/hero.png?raw=true)
