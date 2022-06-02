@@ -20,10 +20,12 @@ Image pairs were prepared using the STIX preview image archive, containing ~ 270
 
 A training set of ~1700 image pairs was the result. Training for 35K epochs resulted in a low L1 loss and reasonable losses for both the generator and discriminator. Some examples of the inputs and predictions are shown below. Image translation notably struggles in the case of multiple sources; this could however be due to an imbalance in the dataset.
 
-![example1](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Back%20Projection%20to%20CLEAN%20Image%20Translation%20with%20Pix2Pix/example1.png?raw=true)
+![example1](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Back%20Projection%20to%20CLEAN%20Image%20Translation%20with%20Pix2Pix/hero.png?raw=true)
 
-![example1](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Back%20Projection%20to%20CLEAN%20Image%20Translation%20with%20Pix2Pix/example2.png?raw=true)
+![example2](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Back%20Projection%20to%20CLEAN%20Image%20Translation%20with%20Pix2Pix/example1.png?raw=true)
 
-![example1](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Back%20Projection%20to%20CLEAN%20Image%20Translation%20with%20Pix2Pix/example3.png?raw=true)
+![example3](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Back%20Projection%20to%20CLEAN%20Image%20Translation%20with%20Pix2Pix/example2.png?raw=true)
+
+![example4](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Back%20Projection%20to%20CLEAN%20Image%20Translation%20with%20Pix2Pix/example3.png?raw=true)
 
 
