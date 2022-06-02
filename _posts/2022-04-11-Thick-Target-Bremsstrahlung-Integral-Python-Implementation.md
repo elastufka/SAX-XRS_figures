@@ -21,7 +21,7 @@ The form of the integral chosen for numerical integration is from [](), and uses
 
 Photon flux at energy $$\epsilon$$ is given by:
 
-$Flux(\epsilon) = \frac{n}{4\pi(AU)^2} \frac{1}{mc^2}\left[ \int_{lg(\epsilon)}^{{lg(E_{eLow})}} \frac{\sigma(\epsilon,E)\rm{v}}{dE/dt} F(E) 10^L \rm{ln(10)} dL + \int_{lg(E_{eLow})}^{{lg(E_{eBreak})}} \frac{\sigma(\epsilon,E)\rm{v}}{dE/dt} F(E) 10^L \rm{ln(10)} dL + \int_{lg(E_{eBreak})}^{{lg(E_{eHigh})}} \frac{\sigma(\epsilon,E)\rm{v}}{dE/dt} F(E) 10^L \rm{ln(10)} dL  \right]
+$Flux(\epsilon) = \frac{n}{4\pi(AU)^2} \frac{1}{mc^2}\left[ \int_{lg(\epsilon)}^{lg(E_{eLow})} \frac{\sigma(\epsilon,E)\rm{v}}{dE/dt} F(E) 10^L \rm{ln(10)} dL + \int_{lg(E_{eLow})}^{{lg(E_{eBreak})}} \frac{\sigma(\epsilon,E)\rm{v}}{dE/dt} F(E) 10^L \rm{ln(10)} dL + \int_{lg(E_{eBreak})}^{{lg(E_{eHigh})}} \frac{\sigma(\epsilon,E)\rm{v}}{dE/dt} F(E) 10^L \rm{ln(10)} dL  \right]
 $
 
 As seen by the term $(AU)^2$ in the denominator, the distance from the emitting region to the detector is taken to be 1 AU. For STIX, this will mean the count spectrum used must be corrected to the 1 AU distance.
