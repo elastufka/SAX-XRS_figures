@@ -9,6 +9,7 @@ categories:
 tags:
   - SunPy
   - PlotLy
+  - visualization
 ---
 
 Solar image data has its own special set of colorscales associated with it. Certain instruments and wavelengths are by default presented in these scales, making their identification quick by the trained eye. SunPy has implemented most of these colormaps in its visualization.colormaps module. To use them in PlotLy, simply convert the LinearSegmentedColorscales to rgb values and add intervals to use them as PlotLy colorscales.

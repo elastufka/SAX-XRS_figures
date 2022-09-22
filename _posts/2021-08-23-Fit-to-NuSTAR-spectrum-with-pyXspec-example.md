@@ -10,6 +10,7 @@ tags:
   - NuSTAR
   - xspec
   - examples
+  - spectroscopy
 ---
 
 [PyXspec](https://heasarc.gsfc.nasa.gov/xanadu/xspec/python/html/index.html#) is the Python interface to NASA's [X-ray Spectral Fitting Package](https://heasarc.gsfc.nasa.gov/xanadu/xspec/).

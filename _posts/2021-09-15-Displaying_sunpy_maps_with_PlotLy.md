@@ -10,6 +10,7 @@ tags:
   - SunPy
   - PlotLy
   - WCS
+  - visualization
 ---
 
 PlotLy lacks matplotlib's projections function, which allows the user to add custom coordinates to their maps using transforms. In order to use solar maps in PlotLy and Dash, these transforms have to be applied (or faked!) elsewhere.  

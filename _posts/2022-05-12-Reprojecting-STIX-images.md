@@ -10,6 +10,8 @@ tags:
   - AIA
   - STIX
   - WCS
+  - imaging
+  - visualization
 ---
 
 Previously, the reprojection of AIA maps to the Solar Orbiter reference frame has been shown. The method of reprojecting STIX images, reconstructed through one of many algorithms such as back projection, forward fit, CLEAN, or expectation maximization, is very similar. 

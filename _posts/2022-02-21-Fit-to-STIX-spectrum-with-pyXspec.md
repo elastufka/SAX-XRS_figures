@@ -10,6 +10,7 @@ tags:
   - STIX
   - xspec
   - examples
+  - spectroscopy
 ---
 
 STIX spectrogram FITS files are not natively compatible with NASA's [X-ray Spectral Fitting Package](https://heasarc.gsfc.nasa.gov/xanadu/xspec/). However, work is ongoing such that this powerful, free software can be used with STIX spectra, should _sswidl's_ OSPEX prove insufficient (ex., OSPEX can only fit with chi-squared minimization and one spectrum at a time).

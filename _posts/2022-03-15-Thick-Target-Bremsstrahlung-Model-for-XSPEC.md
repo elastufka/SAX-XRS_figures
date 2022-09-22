@@ -10,6 +10,7 @@ tags:
   - STIX
   - xspec
   - examples
+  - spectroscopy
 ---
 
 NASA's [X-ray Spectral Fitting Package](https://heasarc.gsfc.nasa.gov/xanadu/xspec/) lacks one of the key solar flare emission models, that of thick-target bremsstrahlung. In _sswidl's_ OSPEX, this model is implemented as _thick2.pro_. Using [sunxspex's](https://github.com/sunpy/sunxspex)

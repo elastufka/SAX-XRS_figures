@@ -10,6 +10,7 @@ tags:
   - NuSTAR
   - xspec
   - DEM
+  - spectroscopy
 ---
 
 ## Spectral fit
