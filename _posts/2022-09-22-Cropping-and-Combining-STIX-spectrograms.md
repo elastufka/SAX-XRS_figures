@@ -1,5 +1,5 @@
 ---
-title: "Cropping and combining STIX spectrograms"
+title: "Cropping and Combining STIX spectrograms"
 image: 
   path: /images/transparent_banner.png
   thumbnail: /images/Cropping and Combining STIX spectrograms/hero.png
