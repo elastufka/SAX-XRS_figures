@@ -16,12 +16,16 @@ To select an event of interest from a long-duration spectrogram or pixel data fi
 A demonstration of how to do this is available on [Colab](https://colab.research.google.com/drive/1bHgPoQGG_5dq6PZuuaN9kPoJa_3ifLh6?usp=sharing), along with links to the applicable code.
 
 ![STIX spectrogram](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Cropping%20and%20Combining%20STIX%20spectrograms/spec1.png?raw=true)
+Figure 1: A STIX spectrogram
 
 ![STIX spectrogram for the following time period](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Cropping%20and%20Combining%20STIX%20spectrograms/spec2.png?raw=true)
+Figure 2: STIX spectrogram for the following time period
 
 ![Lightcurve of STIX observations combined to cover the longer time period](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Cropping%20and%20Combining%20STIX%20spectrograms/spec_combine.png?raw=true)
+Figure 3: Lightcurve of STIX observations combined to cover the longer time period
 
 ![STIX spectrogram cropped to select small solar flare](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Cropping%20and%20Combining%20STIX%20spectrograms/spec_crop.png?raw=true)
+Figure 4: STIX spectrogram cropped to select small solar flare
 
 Things to note: 
 
