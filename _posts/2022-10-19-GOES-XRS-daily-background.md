@@ -31,7 +31,7 @@ The slight differences between the backgrounds, as well as what they mean for fl
 
 STIX daily backgrounds are also available from the [STIX data center](https://datacenter.stix.i4ds.net/). They are displayed here in the ranges that have partial overlap with the GOES short- and long-wavelength channels. 
 
-{%include XRS_GOES_bkg.html %}
+{%include XRS_STIX_bkg.html %}
 
 The comparison between XRS and STIX cannot be direct. For one, the position of Solar Orbiter varies rapidly with respect to the Earth in both distance and angle, neither of which is evident in this plot. What this figure does illustrate is the generally low background of STIX, the dominance of the onboard source, and the sensitivity of the instrument in periods of high solar activity. 
 
