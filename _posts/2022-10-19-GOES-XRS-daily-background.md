@@ -12,8 +12,6 @@ tags:
   - spectroscopy
 ---
 
-## Daily background
-
 Daily X-ray background measurements are available for the last seven days at the Space Weather Prediction Center [SWPC](https://services.swpc.noaa.gov/json/goes/primary/xray-flares-7-day.json). The full dataset can be found [here](https://data.ngdc.noaa.gov/platforms/solar-space-observing-satellites/goes/goes16/l2/data/xrsf-l2-bkd1d_science/). No scaling factor is necessary for this data, as it is in physical units. To determine the daily background, 
  hourly and 8-hour minima of the 1-minute averages are used. The 1-8 Å (long) and 0.5-4 Å (short) background fluxes are shown below, from February 2017 until October 2022. The daily average flux can also be toggled on.
 
