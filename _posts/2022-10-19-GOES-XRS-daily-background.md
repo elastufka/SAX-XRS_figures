@@ -21,7 +21,7 @@ Daily X-ray background measurements are available for the last seven days at the
 
 ## Flare-dectection defined background
 
-The [XRS summary files](https://data.ngdc.noaa.gov/platforms/solar-space-observing-satellites/goes/goes16/l2/data/xrsf-l2-flsum_science/) also include background measurements, which are defined based on the [flare-finding algorithm]().
+The [XRS summary files](https://data.ngdc.noaa.gov/platforms/solar-space-observing-satellites/goes/goes16/l2/data/xrsf-l2-flsum_science/) also include background measurements, which are defined based on the [flare-finding algorithm](https://www.aanda.org/articles/aa/full_html/2016/08/aa28130-16/aa28130-16.html#S2).
 
 The slight differences between the backgrounds, as well as what they mean for flare classes when background-subtracted, are illustrated in the figure below, for solar flares detected by GOES from 
 
