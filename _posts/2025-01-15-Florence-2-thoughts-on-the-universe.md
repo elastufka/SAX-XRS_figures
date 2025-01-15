@@ -2,7 +2,7 @@
 title: "Florence-2's thoughts on the universe"
 image: 
   path: /images/transparent_banner.png
-  thumbnail: /images/florence2.png
+  thumbnail: /images/hero.png
   caption:
 categories:
   - posts
@@ -17,7 +17,7 @@ tags:
 
 ## Optical Galaxies (DeCAM)
 
-![Unbarred spiral galaxy from GMNIST](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Florence2%20thoughts%20on%20the%20universe/gmnistU_box.png?raw=true)
+![Unbarred spiral galaxy from GMNIST](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Florence2%20thoughts%20on%20the%20universe/hero.png?raw=true)
 
 _What Florence-2 thinks:_
 
