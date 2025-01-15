@@ -2,7 +2,7 @@
 title: "Florence-2's thoughts on the universe"
 image: 
   path: /images/transparent_banner.png
-  thumbnail: /images/hero.png
+  thumbnail: /images/Florence2 thoughts on the universe/hero.png
   caption:
 categories:
   - posts
