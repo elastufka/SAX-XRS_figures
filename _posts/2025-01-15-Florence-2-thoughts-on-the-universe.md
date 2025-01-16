@@ -1,5 +1,5 @@
 ---
-title: "Florence-2 thoughts on the universe"
+title: "Florence-2's thoughts on the universe"
 image: 
   path: /images/transparent_banner.png
   thumbnail: /images/Florence2 thoughts on the universe/hero.png
@@ -99,3 +99,4 @@ _What I think:_
 Grapefruit. I love it. 
 
 Maybe a full-disk image from SDO was the low-hanging fruit, because it's identified correctly. Minus points for the second-to-last sentence, which is all kinds of phrases that don't go together. Otherwise, it's a fairly generic description which I'll give a C.
+
