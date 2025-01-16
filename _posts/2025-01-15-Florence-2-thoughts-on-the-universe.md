@@ -1,5 +1,5 @@
 ---
-title: "Florence-2's thoughts on the universe"
+title: "Florence-2 thoughts on the universe"
 image: 
   path: /images/transparent_banner.png
   thumbnail: /images/Florence2 thoughts on the universe/hero.png
