@@ -17,9 +17,7 @@ Daily X-ray background measurements are available for the last seven days at the
 
 ![XRS daily background](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/GOES%XRS%20daily%20background/hero.png?raw=true)
 
-<!---
-{%include xrs_bkg.html %}
--->
+
 
 ## Flare-dectection defined background
 
@@ -29,9 +27,7 @@ The slight differences between the backgrounds, as well as what they mean for fl
 
  ![XRS daily background](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/GOES%XRS%20daily%20background/xrs_flares.png?raw=true)
 
-<!---
-{%include xrs_flares.html %}
--->
+
 
 ## GOES and STIX backgrounds
 
@@ -39,9 +35,7 @@ STIX daily backgrounds are also available from the [STIX data center](https://da
 
  ![XRS daily background](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/GOES%XRS%20daily%20background/XRS_STIX_bkg.png?raw=true)
 
-<!---
-{%include XRS_STIX_bkg.html %}
--->
+
 
 The comparison between XRS and STIX cannot be direct. For one, the position of Solar Orbiter varies rapidly with respect to the Earth in both distance and angle, neither of which is evident in this plot. What this figure does illustrate is the generally low background of STIX, the dominance of the onboard source, and the sensitivity of the instrument in periods of high solar activity. 
 
@@ -49,7 +43,5 @@ The comparison between XRS and STIX cannot be direct. For one, the position of S
 
 The different range of sensitivity of XRS and STIX is best illustrated by the instrument response functions. Here it is clear that XRS and STIX are most sensitive to completely different energies, with very little overlap.
 
-<!---
-{%include GOES_STIX_response.html %}
--->
+
 
