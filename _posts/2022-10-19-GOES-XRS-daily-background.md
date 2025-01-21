@@ -49,6 +49,7 @@ The comparison between XRS and STIX cannot be direct. For one, the position of S
 
 The different range of sensitivity of XRS and STIX is best illustrated by the instrument response functions. Here it is clear that XRS and STIX are most sensitive to completely different energies, with very little overlap.
 
+<!---
 {%include GOES_STIX_response.html %}
-
+-->
 
