@@ -1,8 +1,8 @@
 ---
-title: "Florence-2's thoughts on the universe"
+title: "What Florence-2 thinks of the universe"
 image: 
   path: /images/transparent_banner.png
-  thumbnail: /images/Florence2 thoughts on the universe/hero.png
+  thumbnail: /images/What Florence-2 thinks of the universe/hero.png
   caption:
 categories:
   - posts
@@ -17,7 +17,7 @@ tags:
 
 ## Optical Galaxies (DeCAM)
 
-![Unbarred spiral galaxy from GMNIST](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Florence2%20thoughts%20on%20the%20universe/hero.png?raw=true)
+![Unbarred spiral galaxy from GMNIST](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/What%20Florence-2%20thinks%20of%20the%20universe/hero.png?raw=true)
 
 _What Florence-2 thinks:_
 
@@ -33,7 +33,7 @@ This is indeed an unbarred spiral galaxy (and not a jellyfish). If Florence had 
 
 For this one I give Florence a solid B.
 
-![Smooth round galaxy from GMNIST](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Florence2%20thoughts%20on%20the%20universe/gmnistSR_box.png?raw=true)
+![Smooth round galaxy from GMNIST](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/What%20Florence-2%20thinks%20of%20the%20universe/gmnistSR_box.png?raw=true)
 
 _What Florence-2 thinks:_
 
@@ -51,7 +51,7 @@ I'd rate this performance is slightly lower than the previous, so a B-.
 
 ## Radio galaxies (VLA and MeerKAT)
 
-![VLA Radio galaxy with extended emission](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Florence2%20thoughts%20on%20the%20universe/RGZ_attention_data2_box.png?raw=true)
+![VLA Radio galaxy with extended emission](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/What%20Florence-2%20thinks%20of%20the%20universe/RGZ_attention_data2_box.png?raw=true)
 
 _What Florence-2 thinks:_
 
@@ -68,7 +68,7 @@ This could have been worse, I suppose. While it identifies the two sources, it d
 I'll give it a D because it did the bare minimum.
 
 
-![crop from MGCLS, containing multiple radio galaxies](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Florence2%20thoughts%20on%20the%20universe/mgcls_ep475img_box.png?raw=true)
+![crop from MGCLS, containing multiple radio galaxies](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/What%20Florence-2%20thinks%20of%20the%20universe/mgcls_ep475img_box.png?raw=true)
 
 _What Florence-2 thinks:_
 
@@ -84,7 +84,7 @@ It's neither stars, (individual) particles, or a flower, and once again object d
 
 ## Solar Images (AIA)
 
-![full disk image from AIA 305](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/Florence2%20thoughts%20on%20the%20universe/f0304_crop_box.png?raw=true)
+![full disk image from AIA 305](https://github.com/elastufka/SAX-XRS_figures/blob/gh-pages/images/What%20Florence-2%20thinks%20of%20the%20universe/f0304_crop_box.png?raw=true)
 
 _What Florence-2 thinks:_
 
